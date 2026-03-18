@@ -1,6 +1,9 @@
 import { defineConfig } from "vitepress";
 
+const base = process.env.VITEPRESS_BASE ?? "/";
+
 export default defineConfig({
+    base,
     lang: "en-GB",
     title: "CE-RISE Solution",
     description:
@@ -10,11 +13,15 @@ export default defineConfig({
     head: [
         [
             "link",
-            { rel: "icon", type: "image/png", href: "/images/favicon.png" },
+            {
+                rel: "icon",
+                type: "image/png",
+                href: `${base}images/favicon.png`,
+            },
         ],
     ],
     themeConfig: {
-        logo: "/images/CE-RISE_logo.png",
+        logo: `${base}images/CE-RISE_logo.png`,
         siteTitle: "CE-RISE Solution",
         nav: [
             { text: "Overview", link: "/overview" },

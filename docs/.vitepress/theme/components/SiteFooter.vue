@@ -1,8 +1,12 @@
+<script setup lang="ts">
+import { withBase } from "vitepress";
+</script>
+
 <template>
   <footer class="ce-site-footer">
     <div class="ce-site-footer__inner">
       <div class="ce-site-footer__brand">
-        <img class="ce-site-footer__logo" src="/images/CE-RISE_logo.png" alt="CE-RISE logo" />
+        <img class="ce-site-footer__logo" :src="withBase('/images/CE-RISE_logo.png')" alt="CE-RISE logo" />
         <p class="ce-site-footer__text">
           Static documentation entry point for the CE-RISE solution for digital passports.
         </p>
@@ -12,9 +16,9 @@
         <section>
           <h2>Documentation</h2>
           <ul>
-            <li><a href="/overview">Overview</a></li>
-            <li><a href="/architecture">Architecture</a></li>
-            <li><a href="/data-models">Data models</a></li>
+            <li><a :href="withBase('/overview')">Overview</a></li>
+            <li><a :href="withBase('/architecture')">Architecture</a></li>
+            <li><a :href="withBase('/data-models')">Data models</a></li>
           </ul>
         </section>
 
