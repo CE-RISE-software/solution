@@ -30,33 +30,6 @@ export default defineConfig({
             { text: "Data Models", link: "/data-models" },
             { text: "Reference", link: "/reference" },
         ],
-        sidebar: [
-            {
-                text: "Introduction",
-                items: [
-                    { text: "Overview", link: "/overview" },
-                    { text: "How It Works", link: "/how-it-works" },
-                ],
-            },
-            {
-                text: "Core Structure",
-                items: [
-                    { text: "Architecture", link: "/architecture" },
-                    { text: "Data Models", link: "/data-models" },
-                    {
-                        text: "Software Components",
-                        link: "/software-components",
-                    },
-                ],
-            },
-            {
-                text: "Use And Reference",
-                items: [
-                    { text: "Getting Started", link: "/getting-started" },
-                    { text: "Reference", link: "/reference" },
-                ],
-            },
-        ],
         search: {
             provider: "local",
         },

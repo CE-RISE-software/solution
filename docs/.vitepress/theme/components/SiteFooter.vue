@@ -35,8 +35,7 @@ import { withBase } from "vitepress";
 
     <div class="ce-site-footer__funding">
       <p>
-        Funded by the European Union under Grant Agreement No. 101092281. Views and opinions expressed are
-        those of the author(s) only and do not necessarily reflect those of the European Union or HADEA.
+        © 2026 CE-RISE. Funded by the European Union under Grant Agreement No. 101092281.
       </p>
     </div>
   </footer>
