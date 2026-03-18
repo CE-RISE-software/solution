@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: CE-RISE Solution
+  name: The CE-RISE Solution for Digital Passports
   text: Documentation website
   tagline: Structure and layout for future CE-RISE solution documentation.
   image:

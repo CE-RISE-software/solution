@@ -23,8 +23,8 @@ import { withBase } from "vitepress";
           <h2>Project</h2>
           <ul>
             <li><a href="https://ce-rise.eu/" target="_blank" rel="noreferrer">Main CE-RISE website</a></li>
-            <li><a href="https://github.com/CE-RISE-software/solution" target="_blank" rel="noreferrer">GitHub mirror</a></li>
-            <li><a href="https://codeberg.org/CE-RISE-software" target="_blank" rel="noreferrer">Codeberg organisation</a></li>
+            <li><a href="https://codeberg.org/CE-RISE-models" target="_blank" rel="noreferrer">Data Models</a></li>
+            <li><a href="https://codeberg.org/CE-RISE-software" target="_blank" rel="noreferrer">Software</a></li>
           </ul>
         </section>
       </div>

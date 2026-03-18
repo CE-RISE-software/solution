@@ -20,7 +20,7 @@
     --vp-custom-block-info-border: rgba(255, 142, 0, 0.22);
     --vp-custom-block-tip-bg: rgba(11, 45, 54, 0.06);
     --vp-custom-block-tip-border: rgba(11, 45, 54, 0.18);
-    --vp-home-hero-name-color: #193841;
+    --vp-home-hero-name-color: #222222;
     --vp-home-hero-image-background-image:
         radial-gradient(circle at top, rgba(255, 142, 0, 0.1), transparent 52%),
         linear-gradient(
@@ -454,7 +454,7 @@ body {
 }
 
 .ce-site-footer__columns a:hover {
-    color: #97e2c4;
+    color: #ff8e00;
 }
 
 @media (min-width: 768px) {
