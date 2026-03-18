@@ -4,10 +4,10 @@ layout: home
 hero:
   name: CE-RISE Solution
   text: Digital passport documentation front end
-  tagline: Public-facing documentation shell for the CE-RISE solution, prepared for architecture, data model, component, and onboarding content.
+  tagline: Public-facing documentation shell for the CE-RISE solution, adapted to the graphical language of the main project website and structured for future technical content.
   image:
-    src: /images/CE-RISE_logo.png
-    alt: CE-RISE logo
+    src: /images/logo-mono.png
+    alt: CE-RISE monochrome logo
   actions:
     - theme: brand
       text: Open overview
