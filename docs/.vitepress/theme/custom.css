@@ -399,6 +399,8 @@ body {
 .ce-site-footer {
     margin-top: 3rem;
     padding-left: min(20vw, 360px);
+    position: relative;
+    overflow: hidden;
     background: linear-gradient(180deg, #082e37 0%, #0a3a43 100%);
     color: rgba(255, 255, 255, 0.86);
 }
@@ -504,7 +506,7 @@ body {
     .VPNavBarExtra {
         margin-left: 0;
         padding-left: 0;
-        background: linear-gradient(180deg, #f6f8f7 0%, #f0f4f2 100%);
+        background: #ffffff;
     }
 
     .ce-site-footer__inner {
