@@ -20,5 +20,7 @@ const { theme } = useData();
         {{ item.text }}
       </a>
     </nav>
+
+    <p class="ce-site-rail__copyright">Copyright @ 2026 CE-RISE</p>
   </aside>
 </template>

@@ -29,11 +29,5 @@ import { withBase } from "vitepress";
         </section>
       </div>
     </div>
-
-    <div class="ce-site-footer__funding">
-      <p>
-        Copyright @ 2026 CE-RISE
-      </p>
-    </div>
   </footer>
 </template>
