@@ -20,9 +20,5 @@ const { theme } = useData();
         {{ item.text }}
       </a>
     </nav>
-
-    <div class="ce-site-rail__meta">
-      <p>Digital passport documentation</p>
-    </div>
   </aside>
 </template>

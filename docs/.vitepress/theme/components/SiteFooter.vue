@@ -7,9 +7,6 @@ import { withBase } from "vitepress";
     <div class="ce-site-footer__inner">
       <div class="ce-site-footer__brand">
         <img class="ce-site-footer__logo" :src="withBase('/images/CE-RISE_logo.png')" alt="CE-RISE logo" />
-        <p class="ce-site-footer__text">
-          Static documentation entry point for the CE-RISE solution for digital passports.
-        </p>
       </div>
 
       <div class="ce-site-footer__columns">
@@ -35,7 +32,7 @@ import { withBase } from "vitepress";
 
     <div class="ce-site-footer__funding">
       <p>
-        © 2026 CE-RISE. Funded by the European Union under Grant Agreement No. 101092281.
+        Copyright @ 2026 CE-RISE
       </p>
     </div>
   </footer>

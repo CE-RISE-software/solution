@@ -43,7 +43,7 @@ body {
 
 .Layout {
     background:
-        linear-gradient(90deg, #0b3a46 0, #0b3a46 92px, transparent 92px),
+        linear-gradient(90deg, #0b3640 0, #0b3640 84px, transparent 84px),
         linear-gradient(180deg, #f6f8f7 0%, #f0f4f2 100%);
 }
 
@@ -67,7 +67,7 @@ body {
 .VPNavBar .title,
 .VPNavBarMenu,
 .VPNavBarExtra {
-    margin-left: 92px;
+    margin-left: 84px;
 }
 
 .VPNavBar .title span,
@@ -86,7 +86,7 @@ body {
 .VPContent.has-sidebar,
 .VPDoc,
 .VPHome {
-    padding-left: 92px;
+    padding-left: 84px;
 }
 
 .VPSidebar,
@@ -299,18 +299,18 @@ body {
     z-index: 40;
     display: flex;
     flex-direction: column;
-    width: 92px;
-    padding: 16px 11px;
-    background: #0b3a46;
+    width: 84px;
+    padding: 14px 10px;
+    background: #0b3640;
 }
 
 .ce-site-rail__brand {
     display: block;
-    margin-bottom: 1.6rem;
+    margin-bottom: 1.2rem;
 }
 
 .ce-site-rail__logo {
-    width: 68px;
+    width: 58px;
     height: auto;
 }
 
@@ -324,25 +324,15 @@ body {
 
 .ce-site-rail__link {
     color: rgba(255, 255, 255, 0.92);
-    font-size: 0.68rem;
+    font-size: 0.64rem;
     font-weight: 700;
-    line-height: 1.35;
+    line-height: 1.3;
     letter-spacing: 0.02em;
     text-transform: none;
 }
 
 .ce-site-rail__link:hover {
     color: #97e2c4;
-}
-
-.ce-site-rail__meta {
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 0.72rem;
-    line-height: 1.4;
-}
-
-.ce-site-rail__meta p {
-    margin: 0;
 }
 
 .ce-site-footer {
@@ -420,7 +410,7 @@ body {
 .ce-site-footer__funding p {
     max-width: 64rem;
     margin: 0;
-    color: rgba(255, 255, 255, 0.64);
+    color: rgba(255, 255, 255, 0.72);
     font-size: 0.92rem;
 }
 

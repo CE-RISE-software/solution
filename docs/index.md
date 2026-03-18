@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: CE-RISE Solution
-  text: Digital passport documentation front end
-  tagline: Public-facing documentation shell for the CE-RISE solution, adapted to the graphical language of the main project website and structured for future technical content.
+  text: Documentation website
+  tagline: Structure and layout for future CE-RISE solution documentation.
   image:
     src: /images/logo-mono.png
     alt: CE-RISE monochrome logo
@@ -17,33 +17,33 @@ hero:
       link: /reference
 
 features:
-  - title: Public overview
-    details: A landing page and navigation structure suitable for explaining the CE-RISE digital passport approach.
+  - title: Overview
+    details: Placeholder section.
     icon: 01
-  - title: Technical documentation path
-    details: Placeholder sections for architecture, data models, components, onboarding, and stable reference pages.
+  - title: Documentation sections
+    details: Placeholder section.
     icon: 02
-  - title: GitHub Pages delivery
-    details: Static VitePress output prepared for automated build and publication from the GitHub mirror.
+  - title: Deployment
+    details: GitHub Pages publishing.
     icon: 03
 ---
 
 <div class="ce-rise-band">
-This site is being prepared as the branded documentation entry point for the CE-RISE digital passport solution. The current implementation focuses on visual structure, navigation, and reusable page patterns rather than final editorial content.
+Placeholder landing block.
 </div>
 
 <div class="ce-rise-grid">
   <div class="ce-rise-card">
-    <h3>Approach framing</h3>
-    <p>Space for a concise introduction to the solution concept, scope, and expected audience.</p>
+    <h3>Overview</h3>
+    <p>Placeholder block.</p>
   </div>
   <div class="ce-rise-card">
-    <h3>System structure</h3>
-    <p>Room for diagrams and explanations covering architecture, software components, and data flows.</p>
+    <h3>Architecture</h3>
+    <p>Placeholder block.</p>
   </div>
   <div class="ce-rise-card">
-    <h3>Reference growth</h3>
-    <p>A documentation-first structure that can expand without redesign when real technical content is added.</p>
+    <h3>Reference</h3>
+    <p>Placeholder block.</p>
   </div>
 </div>
 
@@ -53,15 +53,15 @@ This site is being prepared as the branded documentation entry point for the CE-
   :items="[
     {
       title: 'Overview',
-      text: 'Top-level framing for the CE-RISE solution and the role of this site as a public entry point.'
+      text: 'Placeholder block.'
     },
     {
       title: 'How it works',
-      text: 'Reserved space for process explanation, actor journeys, and lifecycle-oriented narratives.'
+      text: 'Placeholder block.'
     },
     {
       title: 'Architecture',
-      text: 'Prepared for system diagrams, interfaces, and component boundaries.'
+      text: 'Placeholder block.'
     }
   ]"
 />
