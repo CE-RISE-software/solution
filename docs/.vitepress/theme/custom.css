@@ -38,16 +38,7 @@ body {
 }
 
 .Layout {
-    background:
-        linear-gradient(
-                45deg,
-                #ff8e00 0%,
-                #b34a79 36%,
-                #b34a79 49%,
-                #0000ff 100%
-            )
-            0 0 / min(20vw, 360px) 100% no-repeat,
-        #ffffff;
+    background: #ffffff;
 }
 
 .VPNav,
@@ -516,6 +507,38 @@ body {
 
     .ce-site-footer {
         padding-left: 0;
+    }
+
+    .VPNav,
+    .VPNavBar,
+    .VPNavScreen,
+    .VPLocalNav {
+        display: block;
+        background: linear-gradient(
+            45deg,
+            #ff8e00 0%,
+            #b34a79 36%,
+            #b34a79 49%,
+            #0000ff 100%
+        );
+    }
+
+    .VPNavBar .title,
+    .VPNavBarMenu,
+    .VPNavBarExtra {
+        margin-left: 0;
+    }
+
+    .VPNavBar .title span,
+    .VPNavBarMenuLink,
+    .VPNavBarExtra .link,
+    .VPSocialLink {
+        color: #ffffff;
+    }
+
+    .VPNavBarMenuLink:hover,
+    .VPNavBarMenuLink.active {
+        color: #ff8e00;
     }
 
     .VPNavBar .logo {
