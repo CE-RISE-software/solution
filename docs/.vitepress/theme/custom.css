@@ -80,7 +80,9 @@ body {
 .VPContent.has-sidebar,
 .VPDoc,
 .VPHome {
-    padding-left: min(20vw, 360px);
+    width: calc(100% - min(20vw, 360px));
+    margin-left: min(20vw, 360px);
+    padding-left: 0;
 }
 
 .VPSidebar,
@@ -497,6 +499,7 @@ body {
     .VPNavBarExtra {
         margin-left: 0;
         padding-left: 0;
+        width: auto;
         background: #ffffff;
     }
 
@@ -514,13 +517,7 @@ body {
     .VPNavScreen,
     .VPLocalNav {
         display: block;
-        background: linear-gradient(
-            45deg,
-            #ff8e00 0%,
-            #b34a79 36%,
-            #b34a79 49%,
-            #0000ff 100%
-        );
+        background: #ffffff;
     }
 
     .VPNavBar .title,
@@ -533,12 +530,12 @@ body {
     .VPNavBarMenuLink,
     .VPNavBarExtra .link,
     .VPSocialLink {
-        color: #ffffff;
+        color: #222222;
     }
 
     .VPNavBarMenuLink:hover,
     .VPNavBarMenuLink.active {
-        color: #ff8e00;
+        color: #b34a79;
     }
 
     .VPNavBar .logo {
