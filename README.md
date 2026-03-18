@@ -32,7 +32,7 @@ Views and opinions expressed are those of the author(s) only and do not necessar
 Neither the European Union nor the granting authority can be held responsible for them.
 
 © 2026 CE-RISE consortium.  
-Licensed under the [European Union Public Licence v1.2 (EUPL-1.2)](LICENSE).  
+Licensed under [Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
 Attribution: CE-RISE project (Grant Agreement No. 101092281) and the individual authors/partners as indicated.
 
 <a href="https://www.nilu.com" target="_blank" rel="noopener noreferrer">
