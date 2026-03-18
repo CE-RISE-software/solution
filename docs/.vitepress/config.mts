@@ -1,6 +1,6 @@
 import { defineConfig } from "vitepress";
 
-const base = process.env.VITEPRESS_BASE ?? "/";
+const base = "/solution/";
 
 export default defineConfig({
     base,
