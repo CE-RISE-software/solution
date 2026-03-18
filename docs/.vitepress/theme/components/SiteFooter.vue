@@ -1,0 +1,39 @@
+<template>
+  <footer class="ce-site-footer">
+    <div class="ce-site-footer__inner">
+      <div class="ce-site-footer__brand">
+        <img class="ce-site-footer__logo" src="/images/CE-RISE_logo.png" alt="CE-RISE logo" />
+        <p class="ce-site-footer__text">
+          Static documentation entry point for the CE-RISE solution for digital passports.
+        </p>
+      </div>
+
+      <div class="ce-site-footer__columns">
+        <section>
+          <h2>Documentation</h2>
+          <ul>
+            <li><a href="/overview">Overview</a></li>
+            <li><a href="/architecture">Architecture</a></li>
+            <li><a href="/data-models">Data models</a></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Project</h2>
+          <ul>
+            <li><a href="https://ce-rise.eu/" target="_blank" rel="noreferrer">Main CE-RISE website</a></li>
+            <li><a href="https://github.com/CE-RISE-software/solution" target="_blank" rel="noreferrer">GitHub mirror</a></li>
+            <li><a href="https://codeberg.org/CE-RISE-software" target="_blank" rel="noreferrer">Codeberg organisation</a></li>
+          </ul>
+        </section>
+      </div>
+    </div>
+
+    <div class="ce-site-footer__funding">
+      <p>
+        Funded by the European Union under Grant Agreement No. 101092281. Views and opinions expressed are
+        those of the author(s) only and do not necessarily reflect those of the European Union or HADEA.
+      </p>
+    </div>
+  </footer>
+</template>

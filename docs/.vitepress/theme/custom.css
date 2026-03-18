@@ -1,0 +1,426 @@
+:root {
+    --vp-font-family-base: "Montserrat", "Urbanist", "Segoe UI", sans-serif;
+    --vp-font-family-mono: "SFMono-Regular", "Consolas", monospace;
+    --vp-c-bg: #f6f7f7;
+    --vp-c-bg-alt: #ffffff;
+    --vp-c-bg-soft: #eef4f2;
+    --vp-c-divider: rgba(14, 44, 39, 0.12);
+    --vp-c-divider-light: rgba(14, 44, 39, 0.08);
+    --vp-c-text-1: #173a35;
+    --vp-c-text-2: #4f6762;
+    --vp-c-text-3: #728783;
+    --vp-c-brand-1: #1c9b74;
+    --vp-c-brand-2: #15835f;
+    --vp-c-brand-3: #0f6548;
+    --vp-c-brand-soft: rgba(28, 155, 116, 0.16);
+    --vp-button-brand-bg: #1c9b74;
+    --vp-button-brand-hover-bg: #15835f;
+    --vp-button-brand-active-bg: #0f6548;
+    --vp-custom-block-info-bg: rgba(28, 155, 116, 0.08);
+    --vp-custom-block-info-border: rgba(28, 155, 116, 0.22);
+    --vp-custom-block-tip-bg: rgba(8, 46, 55, 0.06);
+    --vp-custom-block-tip-border: rgba(8, 46, 55, 0.18);
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: linear-gradient(
+        90deg,
+        #ffffff 0%,
+        #dff7ec 100%
+    );
+    --vp-home-hero-image-background-image:
+        radial-gradient(
+            circle at top,
+            rgba(28, 155, 116, 0.24),
+            transparent 48%
+        ),
+        linear-gradient(180deg, rgba(13, 44, 65, 0.94), rgba(15, 76, 92, 0.88));
+    --vp-home-hero-image-filter: drop-shadow(0 22px 44px rgba(8, 34, 50, 0.2));
+}
+
+body {
+    background:
+        linear-gradient(
+            180deg,
+            rgba(11, 76, 88, 0.05),
+            rgba(246, 247, 247, 0) 18rem
+        ),
+        linear-gradient(180deg, #f7f9f8 0%, #f3f6f5 100%);
+}
+
+.Layout {
+    background: radial-gradient(
+        circle at top right,
+        rgba(28, 155, 116, 0.08),
+        transparent 20rem
+    );
+}
+
+.VPNav {
+    background: linear-gradient(
+        180deg,
+        rgba(6, 49, 58, 0.96),
+        rgba(7, 57, 66, 0.94)
+    );
+}
+
+.VPNavBar {
+    background: transparent;
+}
+
+.VPNavBar.has-sidebar .content-body,
+.VPNavBar .content-body {
+    background: transparent;
+}
+
+.VPNavBar .title span,
+.VPNavBarMenuLink,
+.VPNavBarExtra .link,
+.VPSocialLink {
+    color: rgba(255, 255, 255, 0.92);
+}
+
+.VPNavBarMenuLink:hover,
+.VPNavBarMenuLink.active {
+    color: #8ee1bf;
+}
+
+.VPNavScreen {
+    background: linear-gradient(
+        180deg,
+        rgba(6, 49, 58, 0.98),
+        rgba(7, 57, 66, 0.98)
+    );
+}
+
+.VPNavBar .logo {
+    height: 38px;
+    width: auto;
+}
+
+.VPHero {
+    padding-top: 56px !important;
+}
+
+.VPHero.has-image .container {
+    align-items: center;
+}
+
+.VPHero .main {
+    max-width: 620px;
+}
+
+.VPHero .name {
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+}
+
+.VPHero .text {
+    color: #ffffff;
+    font-size: 1.35rem;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.VPHero .tagline {
+    color: rgba(255, 255, 255, 0.82);
+    max-width: 42rem;
+}
+
+.VPHero.has-image {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 34px;
+    padding-bottom: 52px !important;
+    background: linear-gradient(
+        135deg,
+        rgba(6, 43, 59, 1) 0%,
+        rgba(14, 81, 87, 0.96) 60%,
+        rgba(19, 113, 92, 0.88) 100%
+    );
+}
+
+.VPHero.has-image::after {
+    content: "";
+    position: absolute;
+    inset: auto -10% -120px auto;
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    background: radial-gradient(
+        circle,
+        rgba(255, 255, 255, 0.12),
+        transparent 68%
+    );
+}
+
+.VPHero.has-image .image-container {
+    border-radius: 28px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    min-height: 320px;
+}
+
+.VPHero.has-image .image-bg {
+    opacity: 1;
+}
+
+.VPButton.medium.brand {
+    border-radius: 999px;
+}
+
+.VPButton.medium.alt {
+    border-radius: 999px;
+    border-color: rgba(255, 255, 255, 0.28);
+    color: #ffffff;
+}
+
+.VPButton.medium.alt:hover {
+    border-color: rgba(255, 255, 255, 0.45);
+    color: #ffffff;
+}
+
+.VPFeatures {
+    padding-top: 0;
+}
+
+.VPFeature {
+    border: 1px solid rgba(14, 44, 39, 0.08);
+    border-radius: 24px;
+    background: linear-gradient(180deg, #ffffff, #f3f7f5);
+    box-shadow: 0 18px 36px rgba(16, 44, 39, 0.05);
+}
+
+.VPFeature .title {
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+}
+
+.VPSidebar {
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.88),
+        rgba(243, 247, 245, 0.96)
+    );
+    border-right: 1px solid rgba(14, 44, 39, 0.06);
+}
+
+.VPDoc .container,
+.VPDoc.has-sidebar .content-container {
+    max-width: 1240px;
+}
+
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3 {
+    letter-spacing: -0.03em;
+}
+
+.vp-doc h1 {
+    text-transform: uppercase;
+    font-size: 2.2rem;
+}
+
+.vp-doc h2 {
+    margin-top: 2.5rem;
+    padding-top: 0.8rem;
+    border-top: 1px solid rgba(14, 44, 39, 0.08);
+}
+
+.vp-doc p,
+.vp-doc li {
+    color: var(--vp-c-text-2);
+}
+
+.vp-doc .custom-block {
+    border-radius: 18px;
+}
+
+.ce-rise-band {
+    margin: 1.5rem 0 0;
+    padding: 1.35rem 1.4rem;
+    border-radius: 24px;
+    border: 1px solid rgba(14, 44, 39, 0.08);
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.96),
+        rgba(238, 244, 242, 0.95)
+    );
+    box-shadow: 0 18px 36px rgba(16, 44, 39, 0.05);
+}
+
+.ce-rise-grid {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1.2rem;
+}
+
+.ce-rise-card {
+    padding: 1.1rem 1.2rem;
+    border-radius: 20px;
+    border: 1px solid rgba(14, 44, 39, 0.08);
+    background: rgba(255, 255, 255, 0.88);
+}
+
+.ce-page-intro {
+    margin: 0 0 2rem;
+    padding: 1.5rem 1.6rem;
+    border-radius: 24px;
+    background: linear-gradient(
+        135deg,
+        rgba(7, 57, 66, 0.96),
+        rgba(20, 103, 92, 0.88)
+    );
+    box-shadow: 0 18px 36px rgba(16, 44, 39, 0.08);
+}
+
+.ce-page-intro__eyebrow {
+    margin: 0 0 0.4rem;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 0.84rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+.ce-page-intro h1 {
+    margin: 0;
+    color: #ffffff;
+    text-transform: none;
+    font-size: 2rem;
+}
+
+.ce-page-intro__text {
+    max-width: 42rem;
+    margin: 0.7rem 0 0;
+    color: rgba(255, 255, 255, 0.82) !important;
+    font-size: 1.02rem;
+}
+
+.ce-card-grid {
+    display: grid;
+    gap: 1rem;
+    margin: 1.4rem 0 2rem;
+}
+
+.ce-card-grid__item {
+    padding: 1.15rem 1.2rem;
+    border: 1px solid rgba(14, 44, 39, 0.08);
+    border-radius: 20px;
+    background: linear-gradient(180deg, #ffffff, #f3f7f5);
+    box-shadow: 0 18px 36px rgba(16, 44, 39, 0.04);
+}
+
+.ce-card-grid__item h3 {
+    margin-top: 0;
+    margin-bottom: 0.55rem;
+}
+
+.ce-card-grid__item p {
+    margin: 0;
+}
+
+.ce-site-footer {
+    margin-top: 3rem;
+    background: linear-gradient(180deg, #082e37 0%, #0a3a43 100%);
+    color: rgba(255, 255, 255, 0.86);
+}
+
+.ce-site-footer__inner,
+.ce-site-footer__funding {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.ce-site-footer__inner {
+    display: grid;
+    gap: 2rem;
+    padding-top: 2.4rem;
+    padding-bottom: 2rem;
+}
+
+.ce-site-footer__brand {
+    max-width: 26rem;
+}
+
+.ce-site-footer__logo {
+    width: 180px;
+    height: auto;
+}
+
+.ce-site-footer__text {
+    margin: 0.9rem 0 0;
+    color: rgba(255, 255, 255, 0.72);
+}
+
+.ce-site-footer__columns {
+    display: grid;
+    gap: 1.4rem;
+}
+
+.ce-site-footer__columns h2 {
+    margin: 0 0 0.75rem;
+    color: #ffffff;
+    font-size: 0.95rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.ce-site-footer__columns ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.ce-site-footer__columns li + li {
+    margin-top: 0.55rem;
+}
+
+.ce-site-footer__columns a {
+    color: rgba(255, 255, 255, 0.74);
+}
+
+.ce-site-footer__columns a:hover {
+    color: #8ee1bf;
+}
+
+.ce-site-footer__funding {
+    padding-top: 1rem;
+    padding-bottom: 1.6rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.ce-site-footer__funding p {
+    max-width: 64rem;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.64);
+    font-size: 0.92rem;
+}
+
+@media (min-width: 768px) {
+    .ce-rise-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .ce-card-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .ce-site-footer__inner {
+        grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+        align-items: start;
+    }
+
+    .ce-site-footer__columns {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 960px) {
+    .VPHero.has-image {
+        padding-bottom: 36px !important;
+    }
+
+    .VPHero .text {
+        font-size: 1.05rem;
+    }
+}
