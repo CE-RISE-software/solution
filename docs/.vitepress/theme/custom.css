@@ -297,10 +297,10 @@ body {
 
 .ce-page-intro {
     margin: 0 0 2rem;
-    padding: 1rem 1.1rem;
+    padding: 0;
     border-left: none;
     border-radius: 0;
-    background: #fff4ec;
+    background: transparent;
 }
 
 .ce-page-intro__eyebrow {
@@ -398,6 +398,7 @@ body {
 
 .ce-site-footer {
     margin-top: 3rem;
+    padding-left: min(20vw, 360px);
     background: linear-gradient(180deg, #082e37 0%, #0a3a43 100%);
     color: rgba(255, 255, 255, 0.86);
 }
@@ -479,7 +480,10 @@ body {
 }
 
 @media (min-width: 961px) {
-    .VPNav {
+    .VPNav,
+    .VPNavBar,
+    .VPLocalNav,
+    .VPLocalNavOutlineDropdown {
         display: none;
     }
 }
@@ -501,6 +505,15 @@ body {
         margin-left: 0;
         padding-left: 0;
         background: linear-gradient(180deg, #f6f8f7 0%, #f0f4f2 100%);
+    }
+
+    .ce-site-footer__inner {
+        max-width: 1240px;
+        margin: 0 auto;
+    }
+
+    .ce-site-footer {
+        padding-left: 0;
     }
 
     .VPNavBar .logo {
