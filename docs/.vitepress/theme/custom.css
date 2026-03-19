@@ -1,6 +1,6 @@
 :root {
     --ce-rail-width: min(20vw, 360px);
-    --ce-main-width: min(1320px, calc(100vw - var(--ce-rail-width) - 48px));
+    --ce-main-width: min(1200px, calc(100vw - var(--ce-rail-width) - 64px));
     --vp-font-family-base: "Urbanist", "Montserrat", "Segoe UI", sans-serif;
     --vp-font-family-mono: "SFMono-Regular", "Consolas", monospace;
     --vp-c-bg: #f4f6f5;
@@ -80,7 +80,7 @@ body {
 .VPFeatures .container,
 .ce-site-footer__inner {
     max-width: none;
-    width: min(1200px, calc(100% - 64px));
+    width: var(--ce-main-width);
     margin: 0 auto;
     padding-left: 32px;
     padding-right: 32px;
@@ -429,17 +429,17 @@ body {
     padding-left: 0;
     background: linear-gradient(180deg, #082e37 0%, #0a3a43 100%);
     color: rgba(255, 255, 255, 0.86);
+    overflow: hidden;
 }
 
 .ce-site-footer__inner {
-    display: grid;
-    gap: 2rem;
+    display: block;
     padding-top: 2.4rem;
     padding-bottom: 2rem;
 }
 
 .ce-site-footer__brand {
-    max-width: 26rem;
+    margin-bottom: 1.8rem;
 }
 
 .ce-site-footer__logo {
@@ -485,14 +485,8 @@ body {
 
 @media (min-width: 768px) {
     .ce-rise-grid,
-    .ce-card-grid,
-    .ce-site-footer__columns {
+    .ce-card-grid {
         grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-
-    .ce-site-footer__inner {
-        grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
-        align-items: start;
     }
 
     .ce-site-footer__columns {
@@ -530,8 +524,10 @@ body {
     }
 
     .ce-site-footer__inner {
-        max-width: 1240px;
+        width: min(1200px, calc(100% - 32px));
         margin: 0 auto;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     .ce-site-footer {
