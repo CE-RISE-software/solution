@@ -121,3 +121,67 @@ body,
     font-size: 20px;
     line-height: 1.7;
 }
+
+.VPFeature {
+    border: none;
+    border-radius: 0;
+    background: #fff4ec;
+    box-shadow: none;
+    font-size: 20px;
+    line-height: 1.7;
+    padding: 1rem 1.1rem;
+}
+
+.VPFeature .title {
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 0;
+    color: #222222;
+}
+
+.ce-rise-card,
+.ce-card-grid__item {
+    padding: 1rem 1.1rem;
+    border: 1px solid #edeef5;
+    border-radius: 0;
+    background: #fff4ec;
+    box-shadow: none;
+    min-width: 0;
+}
+
+.ce-card-grid[data-tone="blue"] .ce-card-grid__item {
+    background: #eef1ff;
+    border-color: #d9def6;
+}
+
+.ce-card-grid[data-tone="pink"] .ce-card-grid__item {
+    background: #f8edf3;
+    border-color: #ead3df;
+}
+
+.ce-card-grid[data-tone="orange"] .ce-card-grid__item {
+    background: #fff4ec;
+    border-color: #edeef5;
+}
+
+.ce-card-grid a.ce-card-grid__item {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+
+.ce-card-grid__item h3 {
+    margin-top: 0;
+    margin-bottom: 0.55rem;
+    font-size: 30px;
+    line-height: 1.3;
+    color: #222222;
+    overflow-wrap: anywhere;
+}
+
+.ce-card-grid__item p {
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.7;
+    overflow-wrap: anywhere;
+}
