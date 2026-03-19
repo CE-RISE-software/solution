@@ -192,6 +192,12 @@ body {
     margin-top: 1rem;
 }
 
+.ce-layout__content hr,
+.vp-doc hr {
+    margin-top: 2.2rem;
+    margin-bottom: 0;
+}
+
 .vp-doc .custom-block {
     border-radius: 0;
 }
