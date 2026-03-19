@@ -51,6 +51,28 @@ body,
     display: none !important;
 }
 
+.VPDoc .container,
+.VPDoc .content-container,
+.VPDoc .content,
+.VPDoc .content-body,
+.VPHome .container,
+.VPHome .content,
+.VPHome .content-body {
+    width: 100% !important;
+    max-width: none !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.VPDoc .container,
+.VPHome .container {
+    box-sizing: border-box;
+    max-width: 1320px !important;
+    margin: 0 auto !important;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
 .VPHero {
     font-size: 20px;
     line-height: 1.7;
