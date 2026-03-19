@@ -32,19 +32,19 @@ This page can link out to Codeberg repositories, documentation, APIs, and Zenodo
 <PageCards
   :items="[
     {
-      title: 'Overview',
-      text: 'What the solution is and why it matters.',
-      link: '/overview'
-    },
-    {
-      title: 'How it works',
-      text: 'How the main parts work together.',
-      link: '/how-it-works'
+      title: 'Home',
+      text: 'The CE-RISE solution for digital passports.',
+      link: '/'
     },
     {
       title: 'Capabilities',
       text: 'What the solution enables in practice.',
       link: '/capabilities'
+    },
+    {
+      title: 'Reference',
+      text: 'Stable technical references and linked resources.',
+      link: '/reference'
     }
   ]"
 />

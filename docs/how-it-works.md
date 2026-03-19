@@ -22,7 +22,7 @@ Local, modular, replaceable, adaptable components.
 
 This is where the architecture diagram can be placed.
 
-## Explore the solution
+-- 
 
 <PageCards
   :items="[
@@ -32,19 +32,9 @@ This is where the architecture diagram can be placed.
       link: '/'
     },
     {
-      title: 'Overview',
-      text: 'What the solution is and why it matters.',
-      link: '/overview'
-    },
-    {
       title: 'Capabilities',
       text: 'What the solution enables in practice.',
       link: '/capabilities'
-    },
-    {
-      title: 'Components',
-      text: 'The main building blocks and related resources.',
-      link: '/data-models'
     }
   ]"
 />

@@ -16,7 +16,7 @@ import { withBase } from "vitepress";
             <li><a :href="withBase('/overview')">Overview</a></li>
             <li><a :href="withBase('/how-it-works')">How it works</a></li>
             <li><a :href="withBase('/capabilities')">Capabilities</a></li>
-            <li><a :href="withBase('/data-models')">Components</a></li>
+            <li><a :href="withBase('/components')">Components</a></li>
           </ul>
         </section>
 

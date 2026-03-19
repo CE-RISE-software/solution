@@ -19,6 +19,8 @@ The CE-RISE solution is OPEN: fully interoperable, open source, free to use, mod
   </div>
 </div>
 
+--
+
 ## Explore the solution
 
 <PageCards
@@ -41,7 +43,7 @@ The CE-RISE solution is OPEN: fully interoperable, open source, free to use, mod
     {
       title: 'Components',
       text: 'The main building blocks and related resources.',
-      link: '/data-models'
+      link: '/components'
     }
   ]"
 />

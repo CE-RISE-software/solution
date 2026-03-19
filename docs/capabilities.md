@@ -28,22 +28,19 @@ Replace, adapt, and extend components without redesigning the whole solution.
 
 Build on open software and reusable resources made available by the solution.
 
+--
+
 <PageCards
   :items="[
-    {
-      title: 'Overview',
-      text: 'What the solution is and why it matters.',
-      link: '/overview'
-    },
-    {
-      title: 'How it works',
-      text: 'How the main parts work together.',
-      link: '/how-it-works'
+      {
+      title: 'Home',
+      text: 'The CE-RISE solution for digital passports.',
+      link: '/'
     },
     {
       title: 'Components',
       text: 'The main building blocks and related resources.',
-      link: '/data-models'
+      link: '/components'
     }
   ]"
 />

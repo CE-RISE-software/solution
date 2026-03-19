@@ -43,7 +43,7 @@ export default defineConfig({
             { text: "Overview", link: "/overview" },
             { text: "How It Works", link: "/how-it-works" },
             { text: "Capabilities", link: "/capabilities" },
-            { text: "Components", link: "/data-models" },
+            { text: "Components", link: "/components" },
             { text: "Reference", link: "/reference" },
         ],
     },

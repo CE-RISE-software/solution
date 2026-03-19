@@ -13,7 +13,7 @@ Lower barriers, preserve flexibility, protect sensitive information, and create 
 Future-proof digital passport adoption without lock-in.
 :::
 
-## Explore the solution
+--
 
 <PageCards
   :items="[
@@ -26,16 +26,6 @@ Future-proof digital passport adoption without lock-in.
       title: 'How it works',
       text: 'How the main parts work together.',
       link: '/how-it-works'
-    },
-    {
-      title: 'Capabilities',
-      text: 'What the solution enables in practice.',
-      link: '/capabilities'
-    },
-    {
-      title: 'Components',
-      text: 'The main building blocks and related resources.',
-      link: '/data-models'
     }
   ]"
 />
