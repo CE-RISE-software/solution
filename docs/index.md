@@ -25,19 +25,19 @@ The CE-RISE solution is OPEN: fully interoperable, open source, free to use, mod
   :items="[
     {
       title: 'Overview',
-      text: 'Placeholder block.'
+      text: 'Understand what the CE-RISE solution is, why it matters, and the principles that make it open, modular, and interoperable.'
     },
     {
       title: 'How it works',
-      text: 'Placeholder block.'
+      text: 'See how interoperable information structures, service components, and integration patterns work together as one practical solution.'
     },
     {
       title: 'Capabilities',
-      text: 'Placeholder block.'
+      text: 'Explore what the solution enables in practice: structuring information, running services, connecting systems, and extending components.'
     },
     {
       title: 'Components',
-      text: 'Placeholder block.'
+      text: 'Discover the main building blocks of the CE-RISE solution and access the key resources, repositories, and technical details.'
     }
   ]"
 />
