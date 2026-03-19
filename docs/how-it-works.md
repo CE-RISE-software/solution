@@ -1,26 +1,20 @@
 # How It Works
 
-Purpose: explain the solution as a system.
-
-This is more readable than focusing on architecture alone.
+The CE-RISE solution works by connecting interoperable information, modular services, and flexible system integration in one open approach.
 
 ## Information layer
-
-How passport information is structured and made interoperable.
+Digital passport information is structured in a shared and interoperable way, supporting semantic consistency, reuse of standards and ontologies, and alignment across different systems and providers.
 
 ## Service layer
-
-Core services and supporting components that operate on the information.
+Core and supporting services operate on this information through open, documented APIs, validation functions, and modular software components that can be deployed and combined as needed.
 
 ## Integration layer
-
-How external systems, interfaces, and deployments connect.
+External systems, interfaces, and data spaces connect through interoperable service interfaces, semantic alignment mechanisms, and flexible integration patterns that support existing enterprise environments and digital infrastructures.
 
 ## Deployment flexibility
+Components can be deployed locally or across distributed environments, and can be replaced, adapted, or extended without redesigning the full solution. This supports gradual adoption, scalability, and future evolution.
 
-Local, modular, replaceable, adaptable components.
-
-This is where the architecture diagram can be placed.
+<!-- Architecture diagram can be added here -->
 
 --- 
 
