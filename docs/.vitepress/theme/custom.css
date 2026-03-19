@@ -50,8 +50,8 @@ body {
 .ce-site-footer__inner {
     width: min(100%, var(--ce-content-width));
     margin: 0 auto;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 36px;
+    padding-right: 36px;
     box-sizing: border-box;
 }
 
@@ -293,7 +293,7 @@ body {
 
     .ce-layout__content,
     .ce-site-footer__inner {
-        padding-left: 16px;
-        padding-right: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
