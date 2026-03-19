@@ -39,6 +39,12 @@ export default defineConfig({
     themeConfig: {
         logo: `${base}images/CE-RISE_logo.png`,
         siteTitle: "CE-RISE Solution",
-        nav: [],
+        nav: [
+            { text: "Overview", link: "/overview" },
+            { text: "How It Works", link: "/how-it-works" },
+            { text: "Architecture", link: "/architecture" },
+            { text: "Data Models", link: "/data-models" },
+            { text: "Reference", link: "/reference" },
+        ],
     },
 });
