@@ -39,29 +39,6 @@ export default defineConfig({
     themeConfig: {
         logo: `${base}images/CE-RISE_logo.png`,
         siteTitle: "CE-RISE Solution",
-        nav: [
-            { text: "Overview", link: "/overview" },
-            { text: "How It Works", link: "/how-it-works" },
-            { text: "Architecture", link: "/architecture" },
-            { text: "Data Models", link: "/data-models" },
-            { text: "Reference", link: "/reference" },
-        ],
-        search: {
-            provider: "local",
-        },
-        socialLinks: [
-            {
-                icon: "github",
-                link: "https://github.com/CE-RISE-software/solution",
-            },
-        ],
-        outline: {
-            level: [2, 3],
-            label: "On this page",
-        },
-        docFooter: {
-            prev: "Previous",
-            next: "Next",
-        },
+        nav: [],
     },
 });
