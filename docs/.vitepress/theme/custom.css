@@ -40,6 +40,17 @@ body,
     display: none !important;
 }
 
+.VPNavBarExtra,
+.VPNavBarSocialLinks,
+.VPSocialLinks,
+.VPSocialLink,
+.VPSwitch,
+.VPSwitchAppearance,
+.VPColorModeSwitch,
+.VPNavBarMenu {
+    display: none !important;
+}
+
 .VPHero {
     font-size: 20px;
     line-height: 1.7;
