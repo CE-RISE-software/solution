@@ -409,8 +409,6 @@ body {
     width: auto;
     margin-left: 0;
     padding-left: min(20vw, 360px);
-    position: relative;
-    overflow: hidden;
     background: linear-gradient(180deg, #082e37 0%, #0a3a43 100%);
     color: rgba(255, 255, 255, 0.86);
 }
