@@ -37,33 +37,3 @@ The CE-RISE solution is OPEN: fully interoperable, open source, free to use, mod
     }
   ]"
 />
-
----
-layout: home
-
-hero:
-  name: The CE-RISE Solution for Digital Passports
-  text: Documentation website
-  tagline: Structure and layout for future CE-RISE solution documentation.
-  image:
-    src: /images/logo-mono.png
-    alt: CE-RISE monochrome logo
-  actions:
-    - theme: brand
-      text: Open overview
-      link: /overview
-    - theme: alt
-      text: Browse reference
-      link: /reference
-
-features:
-  - title: Overview
-    details: Placeholder section.
-    icon: 01
-  - title: Documentation sections
-    details: Placeholder section.
-    icon: 02
-  - title: Deployment
-    details: GitHub Pages publishing.
-    icon: 03
----
