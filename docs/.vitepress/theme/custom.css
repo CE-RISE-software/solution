@@ -211,6 +211,13 @@ body {
     grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
+.ce-jump-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    margin: 1.4rem 0 2rem;
+}
+
 .ce-rise-grid {
     margin-top: 1.2rem;
 }
@@ -311,6 +318,46 @@ body {
     background: #ffecde;
 }
 
+.ce-jump-grid__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    min-width: 0;
+    padding: 18px 18px 15px;
+    border: 1px solid transparent;
+    border-bottom: 4px solid transparent;
+    background: #faebdc;
+    color: #222222;
+    text-decoration: none;
+    transition:
+        border-color 0.3s ease,
+        padding 0.3s ease,
+        color 0.3s ease;
+}
+
+.ce-jump-grid__item h3 {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.ce-jump-grid__arrow {
+    flex: 0 0 auto;
+    font-size: 22px;
+    line-height: 1;
+    color: #222222;
+}
+
+.ce-jump-grid__item:hover {
+    border-bottom-color: #ff8e00;
+    padding-right: 32px;
+}
+
 .ce-site-footer {
     margin-top: 3rem;
     background: linear-gradient(180deg, #082e37 0%, #0a3a43 100%);
@@ -395,7 +442,8 @@ body {
     }
 
     .ce-rise-grid,
-    .ce-card-grid {
+    .ce-card-grid,
+    .ce-jump-grid {
         grid-template-columns: 1fr;
     }
 

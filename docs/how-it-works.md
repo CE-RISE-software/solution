@@ -13,19 +13,23 @@
   :items="[
     {
       title: 'Home',
-      text: 'The CE-RISE solution for digital passports.'
+      text: 'The CE-RISE solution for digital passports.',
+      link: '/'
     },
     {
       title: 'Overview',
-      text: 'What the solution is and why it matters.'
+      text: 'What the solution is and why it matters.',
+      link: '/overview'
     },
     {
-      title: 'Capabilities',
-      text: 'What the solution enables in practice.'
+      title: 'Architecture',
+      text: 'How the solution is structured.',
+      link: '/architecture'
     },
     {
-      title: 'Components',
-      text: 'The main building blocks and resources.'
+      title: 'Data models',
+      text: 'The information structures behind the solution.',
+      link: '/data-models'
     }
   ]"
 />
