@@ -1,6 +1,6 @@
 :root {
-    --ce-rail-width: 360px;
-    --ce-content-width: 1020px;
+    --ce-rail-width: min(20vw, 360px);
+    --ce-content-width: 1100px;
     --vp-font-family-base: "Urbanist", "Montserrat", "Segoe UI", sans-serif;
     --vp-font-family-mono: "SFMono-Regular", "Consolas", monospace;
     --vp-c-bg: #ffffff;
