@@ -33,13 +33,13 @@ body,
     background: #ffffff;
 }
 
-.VPSidebar,
+.VPNav,
+.VPNavBar,
+.VPNavScreen,
 .VPLocalNav,
+.VPSidebar,
 .VPDocAside,
-.VPDocFooter {
-    display: none !important;
-}
-
+.VPDocFooter,
 .VPNavBarExtra,
 .VPNavBarSocialLinks,
 .VPSocialLinks,
