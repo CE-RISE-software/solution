@@ -189,6 +189,7 @@ body {
 .ce-card-grid {
     display: grid;
     gap: 1rem;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .ce-rise-grid {
@@ -347,6 +348,11 @@ body {
     .ce-site-footer__inner {
         padding-left: 30px;
         padding-right: 30px;
+    }
+
+    .ce-rise-grid,
+    .ce-card-grid {
+        grid-template-columns: 1fr;
     }
 
     .ce-site-footer__inner {
