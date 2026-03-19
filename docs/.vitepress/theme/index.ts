@@ -4,14 +4,10 @@ import type { Theme } from "vitepress";
 import "./custom.css";
 import PageCards from "./components/PageCards.vue";
 import PageIntro from "./components/PageIntro.vue";
-import SiteRail from "./components/SiteRail.vue";
 
 const theme: Theme = {
     extends: DefaultTheme,
-    Layout: () =>
-        h(DefaultTheme.Layout, null, {
-            "layout-top": () => h(SiteRail),
-        }),
+    Layout: () => h(DefaultTheme.Layout, null, {}),
     enhanceApp(ctx) {
         DefaultTheme.enhanceApp?.(ctx);
         ctx.app.component("PageCards", PageCards);
