@@ -98,12 +98,12 @@ body {
     margin: 0 auto;
 }
 
-.VPHome .container,
-.VPHero .container,
-.VPFeatures .container {
+.VPDoc .content,
+.VPDoc .content-body,
+.VPHome .content,
+.VPHome .content-body {
     max-width: none;
-    width: min(1840px, calc(100vw - min(20vw, 360px) - 32px));
-    margin: 0 auto;
+    width: 100%;
 }
 
 .VPHome,
@@ -413,17 +413,6 @@ body {
     overflow: hidden;
     background: linear-gradient(180deg, #082e37 0%, #0a3a43 100%);
     color: rgba(255, 255, 255, 0.86);
-}
-
-.ce-site-footer::after {
-    content: "";
-    position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 140px;
-    background: linear-gradient(180deg, #082e37 0%, #0a3a43 100%);
-    pointer-events: none;
 }
 
 .ce-site-footer__inner {
