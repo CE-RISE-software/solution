@@ -33,6 +33,13 @@ body,
     background: #ffffff;
 }
 
+.VPSidebar,
+.VPLocalNav,
+.VPDocAside,
+.VPDocFooter {
+    display: none !important;
+}
+
 .VPHero {
     font-size: 20px;
     line-height: 1.7;
