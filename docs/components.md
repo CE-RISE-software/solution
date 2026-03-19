@@ -1,31 +1,33 @@
 # Components
 
-Purpose: map the main building blocks, without forcing the user into repository logic.
+The CE-RISE solution combines interoperable data models with modular software components and reusable implementation resources.
 
-For each component, provide:
+## Data model architecture
 
-- name
-- one-line role
-- what it does
-- link to details
+The solution builds on a layered digital passport data model architecture, designed to support shared structures, specialization, and interoperability across use cases.
 
-## Core building blocks
+- **Common layers** support reusable and cross-cutting information structures.
+- **Domain and use-case layers** support more specific requirements and extensions.
+- **Model architecture** helps align implementations while preserving flexibility.
 
-Main components that provide the central capabilities of the solution.
+[View the layered data model architecture](https://ce-rise-models.codeberg.page/dp-architecture/dpp-architecture.png)
 
-## Supporting services
+## Software components
 
-Additional services and helpers that support operation, validation, or integration.
+The software architecture is based on modular service types that can be combined and extended according to need.
 
-## Reference implementations
+### hex-core-service
+The generic model-aware core service of the solution. It resolves model artifacts, validates payloads against the relevant models, and provides the common API used to create, query, and validate digital passport records across different use cases.
 
-Implementations that show how the solution can be realized in practice.
+### data-backend service
+The persistence service of the solution. It stores and retrieves digital passport records without taking on model-specific validation, enrichment, or workflow logic.
 
-## Demonstrators and examples
+### Model-focused services
+Specialized application services for particular models, record sections, or business workflows. They collect information, enrich existing records, or compute derived data, and then rely on `hex-core-service` to validate and integrate those results into the overall system.
 
-Demonstrators, examples, and supporting materials that help people understand and reuse the solution.
+## Supporting resources
 
-This page can link out to Codeberg repositories, documentation, APIs, and Zenodo records.
+The CE-RISE solution also includes documentation, APIs, repositories, demonstrators, and archived resources that help users understand, evaluate, and reuse the system in practice.
 
 ---
 
