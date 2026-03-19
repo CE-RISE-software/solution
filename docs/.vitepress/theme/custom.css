@@ -1,4 +1,6 @@
 :root {
+    --ce-rail-width: min(20vw, 360px);
+    --ce-main-width: min(1320px, calc(100vw - var(--ce-rail-width) - 48px));
     --vp-font-family-base: "Urbanist", "Montserrat", "Segoe UI", sans-serif;
     --vp-font-family-mono: "SFMono-Regular", "Consolas", monospace;
     --vp-c-bg: #f4f6f5;
@@ -61,7 +63,7 @@ body {
 .VPNavBar .title,
 .VPNavBarMenu,
 .VPNavBarExtra {
-    margin-left: min(20vw, 360px);
+    margin-left: var(--ce-rail-width);
 }
 
 .VPNavBar .title span,
@@ -80,8 +82,8 @@ body {
 .VPContent.has-sidebar,
 .VPDoc,
 .VPHome {
-    width: calc(100% - min(20vw, 360px));
-    margin-left: min(20vw, 360px);
+    width: calc(100% - var(--ce-rail-width));
+    margin-left: var(--ce-rail-width);
     padding-left: 0;
 }
 
@@ -94,16 +96,22 @@ body {
 .VPDoc .container,
 .VPDoc.has-sidebar .content-container {
     max-width: none;
-    width: min(1840px, calc(100vw - min(20vw, 360px) - 32px));
+    width: var(--ce-main-width);
     margin: 0 auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
 }
 
-.VPDoc .content,
-.VPDoc .content-body,
-.VPHome .content,
-.VPHome .content-body {
+.VPHome .container,
+.VPHero .container,
+.VPFeatures .container {
     max-width: none;
-    width: 100%;
+    width: var(--ce-main-width);
+    margin: 0 auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
 }
 
 .VPHome,
@@ -342,8 +350,7 @@ body {
     z-index: 40;
     display: flex;
     flex-direction: column;
-    width: 20vw;
-    max-width: 360px;
+    width: var(--ce-rail-width);
     min-height: 100vh;
     padding: 40px;
     background-image: linear-gradient(
@@ -406,21 +413,20 @@ body {
 
 .ce-site-footer {
     margin-top: 3rem;
-    width: auto;
-    margin-left: 0;
-    padding-left: min(20vw, 360px);
+    width: calc(100% - var(--ce-rail-width));
+    margin-left: var(--ce-rail-width);
+    padding-left: 0;
     background: linear-gradient(180deg, #082e37 0%, #0a3a43 100%);
     color: rgba(255, 255, 255, 0.86);
 }
 
 .ce-site-footer__inner {
-    max-width: 1240px;
+    max-width: none;
+    width: var(--ce-main-width);
     margin: 0 auto;
     padding-left: 24px;
     padding-right: 24px;
-}
-
-.ce-site-footer__inner {
+    box-sizing: border-box;
     display: grid;
     gap: 2rem;
     padding-top: 2.4rem;
@@ -524,6 +530,8 @@ body {
     }
 
     .ce-site-footer {
+        width: auto;
+        margin-left: 0;
         padding-left: 0;
     }
 
