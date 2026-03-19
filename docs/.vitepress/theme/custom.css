@@ -93,7 +93,7 @@ body {
 
 .VPDoc .container,
 .VPDoc.has-sidebar .content-container {
-    max-width: 1240px;
+    max-width: 1440px;
 }
 
 .VPHome,
@@ -104,8 +104,8 @@ body {
 
 .VPHero {
     padding-top: 24px !important;
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 18px;
+    line-height: 1.65;
 }
 
 .VPHero.has-image {
@@ -120,7 +120,7 @@ body {
 }
 
 .VPHero .main {
-    max-width: 720px;
+    max-width: 860px;
     padding-left: 20px;
     border-left: none;
 }
@@ -144,8 +144,8 @@ body {
 
 .VPHero .tagline {
     color: #000000;
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 18px;
+    line-height: 1.65;
     max-width: 42rem;
 }
 
@@ -190,8 +190,8 @@ body {
     border-radius: 0;
     background: #fff4ec;
     box-shadow: none;
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 18px;
+    line-height: 1.65;
     padding: 1rem 1.1rem;
 }
 
@@ -240,8 +240,8 @@ body {
 .vp-doc p,
 .vp-doc li {
     color: #000000;
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 18px;
+    line-height: 1.65;
 }
 
 .vp-doc .custom-block {
@@ -299,7 +299,7 @@ body {
 .ce-page-intro__eyebrow {
     margin: 0 0 0.4rem;
     color: #000000;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     letter-spacing: 0;
     text-transform: none;
@@ -317,8 +317,8 @@ body {
     max-width: 42rem;
     margin: 0.7rem 0 0;
     color: #000000 !important;
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 18px;
+    line-height: 1.65;
 }
 
 .ce-site-rail {
@@ -391,7 +391,9 @@ body {
 
 .ce-site-footer {
     margin-top: 3rem;
-    padding-left: min(20vw, 360px);
+    width: calc(100% - min(20vw, 360px));
+    margin-left: min(20vw, 360px);
+    padding-left: 0;
     position: relative;
     overflow: hidden;
     background: linear-gradient(180deg, #082e37 0%, #0a3a43 100%);
@@ -399,7 +401,7 @@ body {
 }
 
 .ce-site-footer__inner {
-    max-width: 1240px;
+    max-width: 1440px;
     margin: 0 auto;
     padding-left: 24px;
     padding-right: 24px;
@@ -509,6 +511,8 @@ body {
     }
 
     .ce-site-footer {
+        width: auto;
+        margin-left: 0;
         padding-left: 0;
     }
 
