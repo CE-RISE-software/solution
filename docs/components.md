@@ -10,7 +10,7 @@ The solution builds on a layered digital passport data model architecture, desig
 - **Domain and use-case layers** support more specific requirements and extensions.
 - **Model architecture** helps align implementations while preserving flexibility.
 
-[View the layered data model architecture](https://ce-rise-models.codeberg.page/dp-architecture/dpp-architecture.png)
+![Layered data model architecture](https://ce-rise-models.codeberg.page/dp-architecture/dpp-architecture.png)
 
 ## Software components
 
