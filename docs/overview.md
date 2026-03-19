@@ -28,13 +28,13 @@ Future-proof digital passport adoption without lock-in.
       link: '/how-it-works'
     },
     {
-      title: 'Architecture',
-      text: 'How the solution is structured.',
-      link: '/architecture'
+      title: 'Capabilities',
+      text: 'What the solution enables in practice.',
+      link: '/capabilities'
     },
     {
-      title: 'Data models',
-      text: 'The information structures behind the solution.',
+      title: 'Components',
+      text: 'The main building blocks and related resources.',
       link: '/data-models'
     }
   ]"

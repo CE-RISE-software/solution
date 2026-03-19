@@ -11,11 +11,12 @@ import { withBase } from "vitepress";
 
       <div class="ce-site-footer__columns">
         <section>
-          <h2>Documentation</h2>
+          <h2>Sections</h2>
           <ul>
             <li><a :href="withBase('/overview')">Overview</a></li>
-            <li><a :href="withBase('/architecture')">Architecture</a></li>
-            <li><a :href="withBase('/data-models')">Data models</a></li>
+            <li><a :href="withBase('/how-it-works')">How it works</a></li>
+            <li><a :href="withBase('/capabilities')">Capabilities</a></li>
+            <li><a :href="withBase('/data-models')">Components</a></li>
           </ul>
         </section>
 

@@ -1,29 +1,50 @@
 <PageIntro
-  eyebrow="Information structure"
-  title="Data Models"
-  text="Documentation space for the entities, fields, relations, and validation structures that support CE-RISE digital passports."
+  eyebrow="Building blocks"
+  title="Components"
+  text="Purpose: map the main building blocks, without forcing the user into repository logic."
 />
 
-## Planned coverage
+For each component, provide:
 
-- main entities and concepts
-- relationships between models and payloads
-- validation and schema references
-- links to implementation material
+- name
+- one-line role
+- what it does
+- link to details
+
+## Core building blocks
+
+Main components that provide the central capabilities of the solution.
+
+## Supporting services
+
+Additional services and helpers that support operation, validation, or integration.
+
+## Reference implementations
+
+Implementations that show how the solution can be realized in practice.
+
+## Demonstrators and examples
+
+Demonstrators, examples, and supporting materials that help people understand and reuse the solution.
+
+This page can link out to Codeberg repositories, documentation, APIs, and Zenodo records.
 
 <PageCards
   :items="[
     {
-      title: 'Core entities',
-      text: 'Future explanation of the principal concepts and objects used by the solution.'
+      title: 'Overview',
+      text: 'What the solution is and why it matters.',
+      link: '/overview'
     },
     {
-      title: 'Relations and mappings',
-      text: 'Reserved for showing how concepts relate across payloads, schemas, and system components.'
+      title: 'How it works',
+      text: 'How the main parts work together.',
+      link: '/how-it-works'
     },
     {
-      title: 'Validation references',
-      text: 'A place for stable schema and constraint references once the material is ready.'
+      title: 'Capabilities',
+      text: 'What the solution enables in practice.',
+      link: '/capabilities'
     }
   ]"
 />

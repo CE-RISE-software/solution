@@ -42,8 +42,8 @@ export default defineConfig({
         nav: [
             { text: "Overview", link: "/overview" },
             { text: "How It Works", link: "/how-it-works" },
-            { text: "Architecture", link: "/architecture" },
-            { text: "Data Models", link: "/data-models" },
+            { text: "Capabilities", link: "/capabilities" },
+            { text: "Components", link: "/data-models" },
             { text: "Reference", link: "/reference" },
         ],
     },

@@ -1,11 +1,26 @@
 # How It Works
 
-## Planned content structure
+Purpose: explain the solution as a system.
 
-- actors and roles
-- information flow across the lifecycle
-- validation and publication steps
-- links into the related architecture and model sections
+This is more readable than focusing on architecture alone.
+
+## Information layer
+
+How passport information is structured and made interoperable.
+
+## Service layer
+
+Core services and supporting components that operate on the information.
+
+## Integration layer
+
+How external systems, interfaces, and deployments connect.
+
+## Deployment flexibility
+
+Local, modular, replaceable, adaptable components.
+
+This is where the architecture diagram can be placed.
 
 ## Explore the solution
 
@@ -22,13 +37,13 @@
       link: '/overview'
     },
     {
-      title: 'Architecture',
-      text: 'How the solution is structured.',
-      link: '/architecture'
+      title: 'Capabilities',
+      text: 'What the solution enables in practice.',
+      link: '/capabilities'
     },
     {
-      title: 'Data models',
-      text: 'The information structures behind the solution.',
+      title: 'Components',
+      text: 'The main building blocks and related resources.',
       link: '/data-models'
     }
   ]"

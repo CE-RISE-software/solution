@@ -23,7 +23,7 @@
     },
     {
       title: 'Related material',
-      text: 'Links onward to architecture, data models, software components, and reference sections.'
+      text: 'Links onward to capabilities, components, and reference sections.'
     }
   ]"
 />
