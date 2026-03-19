@@ -32,3 +32,92 @@ body,
 .VPHome {
     background: #ffffff;
 }
+
+.VPHero {
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+.VPHero .name {
+    letter-spacing: -0.04em;
+    text-transform: none;
+    font-size: 64px;
+    line-height: 1.3;
+    color: #222222;
+}
+
+.VPHero .text {
+    color: #222222;
+    font-size: 38px;
+    line-height: 1.3;
+    letter-spacing: 0;
+    text-transform: none;
+    font-weight: 300;
+}
+
+.VPHero .tagline {
+    color: #000000;
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3 {
+    letter-spacing: -0.03em;
+}
+
+.vp-doc h1 {
+    text-transform: none;
+    font-size: 54px;
+    line-height: 1.3;
+    color: #222222;
+}
+
+.vp-doc h2 {
+    font-size: 42px;
+    line-height: 1.3;
+    color: #222222;
+    border-top: none;
+}
+
+.vp-doc h3 {
+    font-size: 34px;
+    line-height: 1.3;
+    color: #222222;
+}
+
+.vp-doc h4 {
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.3;
+    color: #222222;
+}
+
+.vp-doc p,
+.vp-doc li {
+    color: #000000;
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+.ce-page-intro__eyebrow {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+.ce-page-intro h1 {
+    color: #222222;
+    text-transform: none;
+    font-size: 54px;
+    line-height: 1.3;
+}
+
+.ce-page-intro__text {
+    color: #000000 !important;
+    font-size: 20px;
+    line-height: 1.7;
+}
