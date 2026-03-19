@@ -11,10 +11,10 @@ The CE-RISE solution is OPEN: fully interoperable, open source, free to use, mod
   </div>
   <div class="ce-rise-card">
     <h4>Why it matters?</h4>
-    <p>Interoperability, openness, reuse, lower adoption barriers, avoid lock-in.</p>
+    <p>Interoperability, openness, reuse, lower adoption cost, avoid lock-in.</p>
   </div>
   <div class="ce-rise-card">
-    <h4>What you can do with it?</h4>
+    <h4>What you can do?</h4>
     <p>Model passports, run services, connect systems, extend components, reuse openly.</p>
   </div>
 </div>
