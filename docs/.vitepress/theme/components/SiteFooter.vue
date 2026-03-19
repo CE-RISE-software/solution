@@ -22,7 +22,8 @@ import { withBase } from "vitepress";
         <section>
           <h2>Project</h2>
           <ul>
-            <li><a href="https://ce-rise.eu/" target="_blank" rel="noreferrer">Main CE-RISE website</a></li>
+            <li><a href="https://ce-rise.eu/" target="_blank" rel="noreferrer">CE-RISE Website</a></li>
+            <li><a href="https://zenodo.org/communities/ce-rise/" target="_blank" rel="noreferrer">Zenodo Archive</a></li>
             <li><a href="https://codeberg.org/CE-RISE-models" target="_blank" rel="noreferrer">Data Models</a></li>
             <li><a href="https://codeberg.org/CE-RISE-software" target="_blank" rel="noreferrer">Software</a></li>
           </ul>

@@ -29,7 +29,9 @@ features:
 ---
 
 <div class="ce-rise-band">
-Placeholder landing block.
+The CE-RISE solution is open and makes it easy to benefit from digital passport systems.
+
+The CE-RISE solution is OPEN: fully interoperable, open source, free to use, modular, extensible, and open to community contributions.
 </div>
 
 <div class="ce-rise-grid">
