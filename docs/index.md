@@ -6,15 +6,15 @@ The CE-RISE solution is OPEN: fully interoperable, open source, free to use, mod
 
 <div class="ce-rise-grid">
   <div class="ce-rise-card">
-    <h4>What it is?</h4>
+    <h3>What it is?</h3>
     <p>A practical, open solution for building and using digital passport systems.</p>
   </div>
   <div class="ce-rise-card">
-    <h4>Why it matters?</h4>
+    <h3>Why it matters?</h3>
     <p>Interoperability, openness, reuse, lower adoption cost, avoid lock-in.</p>
   </div>
   <div class="ce-rise-card">
-    <h4>What you can do?</h4>
+    <h3>What you can do with it?</h3>
     <p>Model passports, run services, connect systems, extend components, reuse openly.</p>
   </div>
 </div>

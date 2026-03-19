@@ -1,8 +1,4 @@
-<PageIntro
-  eyebrow="Introduction"
-  title="Overview"
-  text="Public entry point for understanding the CE-RISE digital passport approach, its scope, and the documentation paths that will grow from this foundation."
-/>
+# Overview
 
 ## Role of this site
 
