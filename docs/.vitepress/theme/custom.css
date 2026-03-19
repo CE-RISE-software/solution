@@ -98,6 +98,14 @@ body {
     margin: 0 auto;
 }
 
+.VPHome .container,
+.VPHero .container,
+.VPFeatures .container {
+    max-width: none;
+    width: min(1840px, calc(100vw - min(20vw, 360px) - 32px));
+    margin: 0 auto;
+}
+
 .VPHome,
 .VPDoc,
 .VPContent {
@@ -419,7 +427,7 @@ body {
 }
 
 .ce-site-footer__inner {
-    max-width: 1440px;
+    max-width: 1240px;
     margin: 0 auto;
     padding-left: 24px;
     padding-right: 24px;
