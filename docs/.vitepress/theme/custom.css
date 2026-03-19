@@ -1,6 +1,6 @@
 :root {
     --ce-rail-width: min(20vw, 360px);
-    --ce-main-width: 1480px;
+    --ce-main-width: 1360px;
     --vp-font-family-base: "Urbanist", "Montserrat", "Segoe UI", sans-serif;
     --vp-font-family-mono: "SFMono-Regular", "Consolas", monospace;
     --vp-c-bg: #f4f6f5;
@@ -80,8 +80,8 @@ body {
 .VPHero .container,
 .VPFeatures .container,
 .ce-site-footer__inner {
-    width: calc(100vw - var(--ce-rail-width) - 32px) !important;
-    max-width: none !important;
+    width: 100% !important;
+    max-width: var(--ce-main-width) !important;
     margin: 0 auto !important;
     padding-left: 16px;
     padding-right: 16px;
@@ -473,8 +473,8 @@ body {
 .ce-site-footer__columns {
     display: grid;
     gap: 1.4rem;
-    width: fit-content;
-    max-width: 100%;
+    width: auto;
+    max-width: none;
 }
 
 .ce-site-footer__columns h2 {
@@ -510,7 +510,7 @@ body {
     }
 
     .ce-site-footer__columns {
-        grid-template-columns: repeat(2, minmax(280px, 320px));
+        grid-template-columns: repeat(2, minmax(0, max-content));
     }
 }
 

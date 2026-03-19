@@ -1,8 +1,4 @@
-<PageIntro
-  eyebrow="Solution flow"
-  title="How It Works"
-  text="Reserved for the end-to-end explanation of how information moves through the CE-RISE digital passport approach."
-/>
+# How It Works
 
 ## Planned content structure
 
@@ -11,19 +7,25 @@
 - validation and publication steps
 - links into the related architecture and model sections
 
+## Explore the solution
+
 <PageCards
   :items="[
     {
-      title: 'Actors',
-      text: 'Future descriptions of the organisations, systems, and user roles interacting with the passport workflow.'
+      title: 'Home',
+      text: 'The CE-RISE solution for digital passports.'
     },
     {
-      title: 'Lifecycle flow',
-      text: 'A place for sequence views and simplified step-by-step process explanations.'
+      title: 'Overview',
+      text: 'What the solution is and why it matters.'
     },
     {
-      title: 'Validation points',
-      text: 'Reserved for publication, checking, and information-sharing conditions.'
+      title: 'Capabilities',
+      text: 'What the solution enables in practice.'
+    },
+    {
+      title: 'Components',
+      text: 'The main building blocks and resources.'
     }
   ]"
 />
