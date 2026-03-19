@@ -1,8 +1,6 @@
-<PageIntro
-  eyebrow="Building blocks"
-  title="Components"
-  text="Purpose: map the main building blocks, without forcing the user into repository logic."
-/>
+# Components
+
+Purpose: map the main building blocks, without forcing the user into repository logic.
 
 For each component, provide:
 
@@ -33,17 +31,10 @@ This page can link out to Codeberg repositories, documentation, APIs, and Zenodo
   :items="[
     {
       title: 'Home',
-      text: 'The CE-RISE solution for digital passports.',
       link: '/'
     },
     {
-      title: 'Capabilities',
-      text: 'What the solution enables in practice.',
-      link: '/capabilities'
-    },
-    {
       title: 'Reference',
-      text: 'Stable technical references and linked resources.',
       link: '/reference'
     }
   ]"

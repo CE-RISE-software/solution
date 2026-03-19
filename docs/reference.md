@@ -1,8 +1,6 @@
-<PageIntro
-  eyebrow="Stable details"
-  title="Reference"
-  text="Anchor page for the future stable technical details of the CE-RISE solution, including schemas, specifications, and release-linked resources."
-/>
+# Reference
+
+Anchor page for the future stable technical details of the CE-RISE solution, including schemas, specifications, and release-linked resources.
 
 ## Planned reference topics
 

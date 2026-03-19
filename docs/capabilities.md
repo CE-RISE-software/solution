@@ -1,8 +1,6 @@
-<PageIntro
-  eyebrow="What the solution enables"
-  title="Capabilities"
-  text="Purpose: explain what the solution enables in practice."
-/>
+# Capabilities
+
+Purpose: explain what the solution enables in practice.
 
 ## Create and manage digital passport information
 
@@ -34,12 +32,10 @@ Build on open software and reusable resources made available by the solution.
   :items="[
       {
       title: 'Home',
-      text: 'The CE-RISE solution for digital passports.',
       link: '/'
     },
     {
       title: 'Components',
-      text: 'The main building blocks and related resources.',
       link: '/components'
     }
   ]"

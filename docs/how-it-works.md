@@ -28,12 +28,10 @@ This is where the architecture diagram can be placed.
   :items="[
     {
       title: 'Home',
-      text: 'The CE-RISE solution for digital passports.',
       link: '/'
     },
     {
       title: 'Capabilities',
-      text: 'What the solution enables in practice.',
       link: '/capabilities'
     }
   ]"

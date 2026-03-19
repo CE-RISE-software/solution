@@ -4,7 +4,7 @@ import { withBase } from "vitepress";
 const props = defineProps<{
   items: Array<{
     title: string;
-    text: string;
+    text?: string;
     link?: string;
   }>;
   tone?: "blue" | "pink" | "orange";
@@ -23,7 +23,7 @@ const isJumpGrid = props.items.every((item) => Boolean(item.link));
       :href="item.link ? withBase(item.link) : undefined"
     >
       <h3>{{ item.title }}</h3>
-      <p v-if="!isJumpGrid">{{ item.text }}</p>
+      <p v-if="!isJumpGrid && item.text">{{ item.text }}</p>
       <span v-else class="ce-jump-grid__arrow" aria-hidden="true">→</span>
     </component>
   </div>

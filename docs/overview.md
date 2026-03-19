@@ -19,12 +19,10 @@ Future-proof digital passport adoption without lock-in.
   :items="[
     {
       title: 'Home',
-      text: 'The CE-RISE solution for digital passports.',
       link: '/'
     },
     {
       title: 'How it works',
-      text: 'How the main parts work together.',
       link: '/how-it-works'
     }
   ]"
