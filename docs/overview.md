@@ -1,33 +1,35 @@
 # Overview
 
-## Role of this site
+## The challenge
+Digital passport adoption is slowed by fragmentation, lock-in, and high entry barriers.
 
-This placeholder page reserves space for:
+## The CE-RISE solution
+An open, interoperable, modular, and technology-agnostic solution for gradual and practical adoption.
 
-- a concise introduction to the CE-RISE solution
-- the purpose and scope of the digital passport approach
-- the relationship between this documentation site and the wider CE-RISE project
-- guidance toward architecture, model, and reference material
-
-## Current phase
+## Why it matters
+Lower barriers, preserve flexibility, protect sensitive information, and create added value for circular economy.
 
 ::: info
-This repository phase focuses on visual identity, layout, and reusable documentation structure. Final production text is intentionally deferred.
+Future-proof digital passport adoption without lock-in.
 :::
 
 <PageCards
   :items="[
     {
-      title: 'Public onboarding',
-      text: 'A future overview of what the CE-RISE solution is, who it serves, and why this documentation exists.'
+      title: 'Home',
+      text: 'The CE-RISE solution for digital passports.'
     },
     {
-      title: 'Documentation routes',
-      text: 'Clear onward paths into architecture, models, software components, and reference materials.'
+      title: 'How it works',
+      text: 'How the main parts work together.'
     },
     {
-      title: 'Stable front door',
-      text: 'A maintainable landing structure that remains coherent as real editorial content is added later.'
+      title: 'Capabilities',
+      text: 'What the solution enables in practice.'
+    },
+    {
+      title: 'Components',
+      text: 'The main building blocks and resources.'
     }
   ]"
 />
