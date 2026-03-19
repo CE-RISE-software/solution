@@ -27,6 +27,8 @@ Demonstrators, examples, and supporting materials that help people understand an
 
 This page can link out to Codeberg repositories, documentation, APIs, and Zenodo records.
 
+---
+
 <PageCards
   :items="[
     {

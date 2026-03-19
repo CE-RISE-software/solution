@@ -26,7 +26,7 @@ Replace, adapt, and extend components without redesigning the whole solution.
 
 Build on open software and reusable resources made available by the solution.
 
---
+---
 
 <PageCards
   :items="[

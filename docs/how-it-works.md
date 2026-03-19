@@ -22,7 +22,7 @@ Local, modular, replaceable, adaptable components.
 
 This is where the architecture diagram can be placed.
 
--- 
+--- 
 
 <PageCards
   :items="[

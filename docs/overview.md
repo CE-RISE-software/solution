@@ -13,7 +13,7 @@ Lower barriers, preserve flexibility, protect sensitive information, and create 
 Future-proof digital passport adoption without lock-in.
 :::
 
---
+---
 
 <PageCards
   :items="[

@@ -19,7 +19,7 @@ The CE-RISE solution is OPEN: fully interoperable, open source, free to use, mod
   </div>
 </div>
 
---
+---
 
 ## Explore the solution
 
