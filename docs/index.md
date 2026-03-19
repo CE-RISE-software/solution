@@ -6,20 +6,20 @@ The CE-RISE solution is OPEN: fully interoperable, open source, free to use, mod
 
 <div class="ce-rise-grid">
   <div class="ce-rise-card">
-    <h3>Overview</h3>
-    <p>Placeholder block.</p>
+    <h3>What it is?</h3>
+    <p>A practical, open solution for building and using digital passport systems.</p>
   </div>
   <div class="ce-rise-card">
-    <h3>Architecture</h3>
-    <p>Placeholder block.</p>
+    <h3>Why it matters?</h3>
+    <p>Interoperability, openness, reuse, lower adoption barriers, avoid lock-in.</p>
   </div>
   <div class="ce-rise-card">
-    <h3>Reference</h3>
-    <p>Placeholder block.</p>
+    <h3>What you can do with it?</h3>
+    <p>Model passports, run services, connect systems, extend components, reuse openly.</p>
   </div>
 </div>
 
-## Documentation map
+## Explore the solution
 
 <PageCards
   :items="[
@@ -32,7 +32,11 @@ The CE-RISE solution is OPEN: fully interoperable, open source, free to use, mod
       text: 'Placeholder block.'
     },
     {
-      title: 'Architecture',
+      title: 'Capabilities',
+      text: 'Placeholder block.'
+    },
+    {
+      title: 'Components',
       text: 'Placeholder block.'
     }
   ]"
