@@ -93,7 +93,9 @@ body {
 
 .VPDoc .container,
 .VPDoc.has-sidebar .content-container {
-    max-width: 1240px;
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .VPHome,
@@ -104,8 +106,8 @@ body {
 
 .VPHero {
     padding-top: 24px !important;
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
 .VPHero.has-image {
@@ -120,7 +122,7 @@ body {
 }
 
 .VPHero .main {
-    max-width: 720px;
+    max-width: 100%;
     padding-left: 20px;
     border-left: none;
 }
@@ -144,8 +146,8 @@ body {
 
 .VPHero .tagline {
     color: #000000;
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 14px;
+    line-height: 1.5;
     max-width: 42rem;
 }
 
@@ -190,8 +192,8 @@ body {
     border-radius: 0;
     background: #fff4ec;
     box-shadow: none;
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 14px;
+    line-height: 1.5;
     padding: 1rem 1.1rem;
 }
 
@@ -240,8 +242,8 @@ body {
 .vp-doc p,
 .vp-doc li {
     color: #000000;
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
 .vp-doc .custom-block {
@@ -299,7 +301,7 @@ body {
 .ce-page-intro__eyebrow {
     margin: 0 0 0.4rem;
     color: #000000;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     letter-spacing: 0;
     text-transform: none;
@@ -317,8 +319,8 @@ body {
     max-width: 42rem;
     margin: 0.7rem 0 0;
     color: #000000 !important;
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
 .ce-site-rail {
