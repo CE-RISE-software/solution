@@ -41,6 +41,9 @@ body {
 
 .Layout {
     background: #ffffff;
+    padding-left: var(--ce-rail-width);
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .VPNav,
@@ -56,8 +59,8 @@ body {
 
 .VPContent,
 .VPContent.has-sidebar {
-    width: calc(100% - var(--ce-rail-width));
-    margin-left: var(--ce-rail-width);
+    width: auto;
+    margin-left: 0;
     padding-left: 0;
     box-sizing: border-box;
 }
@@ -438,8 +441,8 @@ body {
 
 .ce-site-footer {
     margin-top: 3rem;
-    width: calc(100% - var(--ce-rail-width));
-    margin-left: var(--ce-rail-width);
+    width: auto;
+    margin-left: 0;
     padding-left: 0;
     background: linear-gradient(180deg, #082e37 0%, #0a3a43 100%);
     color: rgba(255, 255, 255, 0.86);
@@ -545,6 +548,10 @@ body {
         padding-left: 0;
         width: auto;
         background: #ffffff;
+    }
+
+    .Layout {
+        padding-left: 0;
     }
 
     .ce-site-footer__inner {
