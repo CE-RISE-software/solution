@@ -226,6 +226,11 @@ body {
     min-width: 0;
 }
 
+.ce-rise-card {
+    background: #eef1ff;
+    border-color: #d9def6;
+}
+
 .VPFeature {
     border: none;
 }
