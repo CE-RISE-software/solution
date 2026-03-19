@@ -48,6 +48,7 @@ body {
 
 .Layout {
     background: #ffffff;
+    padding-left: var(--ce-rail-width);
     box-sizing: border-box;
     overflow-x: hidden;
 }
@@ -540,12 +541,6 @@ body {
 @media (min-width: 961px) {
     :root {
         --ce-rail-width: 360px;
-    }
-
-    .VPContent,
-    .VPContent.has-sidebar {
-        margin-left: var(--ce-rail-width);
-        width: calc(100% - var(--ce-rail-width));
     }
 
     .VPNav,
