@@ -1,30 +1,22 @@
 # Capabilities
 
-Purpose: explain what the solution enables in practice.
-
 ## Create and manage digital passport information
-
-Create, maintain, and organize digital passport information across use cases.
+Create, maintain, and organize digital passport information across use cases, storage providers, and solution environments. Support gradual integration with existing enterprise and siloed data spaces, including systems such as ERPs.
 
 ## Validate and structure information consistently
-
-Keep information aligned, interoperable, and consistently structured.
+Keep information aligned, interoperable, and consistently structured. Support straightforward import of industry standards, controlled vocabularies, and ontologies to improve semantic consistency and enable automatic and AI-based discovery and understanding.
 
 ## Expose and consume services
-
-Provide and use services that operate on digital passport information.
+Provide and use services that operate on digital passport information through fully documented APIs, with supported CLI and SDK access. Run containerized micro webservices that are easy to deploy, scale, and orchestrate.
 
 ## Integrate with external systems
-
-Connect with external applications, interfaces, and data flows.
+Connect with external applications, interfaces, and data flows through interoperable service interfaces. Support semantic alignment with standards and ontologies, together with validation services that help maintain consistency across connected systems.
 
 ## Adapt and extend components
-
-Replace, adapt, and extend components without redesigning the whole solution.
+Replace, adapt, and extend components without redesigning the whole solution. The open and open-source approach supports integration with state-of-the-art authentication systems and leaves ample space for new pluggable services delivering additional value.
 
 ## Reuse open resources
-
-Build on open software and reusable resources made available by the solution.
+Build on open software and reusable resources made available by the solution, and support further community and user-driven extension over time. Resources are released through open licensing approaches, including CC BY-NC for content and knowledge assets and EUPL for software components.
 
 ---
 
