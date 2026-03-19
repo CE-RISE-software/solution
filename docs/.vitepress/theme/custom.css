@@ -1,6 +1,6 @@
 :root {
     --ce-rail-width: min(20vw, 360px);
-    --ce-main-width: 1320px;
+    --ce-main-width: 1480px;
     --vp-font-family-base: "Urbanist", "Montserrat", "Segoe UI", sans-serif;
     --vp-font-family-mono: "SFMono-Regular", "Consolas", monospace;
     --vp-c-bg: #f4f6f5;
@@ -56,6 +56,7 @@ body {
 
 .VPContent,
 .VPContent.has-sidebar {
+    width: auto;
     margin-left: var(--ce-rail-width);
     padding-left: 0;
 }
@@ -78,12 +79,27 @@ body {
 .VPHero .container,
 .VPFeatures .container,
 .ce-site-footer__inner {
-    width: 100%;
-    max-width: var(--ce-main-width);
-    margin: 0 auto;
-    padding-left: 32px;
-    padding-right: 32px;
+    width: min(
+        var(--ce-main-width),
+        calc(100vw - var(--ce-rail-width) - 32px)
+    ) !important;
+    max-width: none !important;
+    margin: 0 auto !important;
+    padding-left: 16px;
+    padding-right: 16px;
     box-sizing: border-box;
+}
+
+.VPDoc .content,
+.VPDoc .content-container,
+.VPDoc .content-body,
+.VPHome .content,
+.VPHome .content-body,
+.vp-doc {
+    width: 100% !important;
+    max-width: none !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
 
 .VPHome,
@@ -267,6 +283,7 @@ body {
     border-radius: 0;
     background: #fff4ec;
     box-shadow: none;
+    font-size: 0.9rem;
 }
 
 .ce-card-grid[data-tone="blue"] .ce-card-grid__item {
