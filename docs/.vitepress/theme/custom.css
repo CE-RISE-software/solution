@@ -64,50 +64,10 @@ body {
     display: none;
 }
 
-.VPContent,
-.VPContent.has-sidebar {
-    width: auto;
-    margin-left: 0;
-    padding-left: 0;
-    box-sizing: border-box;
-}
-
-.VPDoc,
-.VPHome {
-    width: auto;
-    margin-left: 0;
-}
-
 .VPSidebar,
 .VPLocalNav.has-sidebar .menu,
 .VPDocAside {
     display: none !important;
-}
-
-.VPDoc .container,
-.VPDoc.has-sidebar .content-container,
-.VPHome .container,
-.VPHero .container,
-.VPFeatures .container,
-.ce-site-footer__inner {
-    width: 100% !important;
-    max-width: var(--ce-main-width) !important;
-    margin: 0 auto !important;
-    padding-left: 16px;
-    padding-right: 16px;
-    box-sizing: border-box;
-}
-
-.VPDoc .content,
-.VPDoc .content-container,
-.VPDoc .content-body,
-.VPHome .content,
-.VPHome .content-body,
-.vp-doc {
-    width: 100% !important;
-    max-width: none !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
 }
 
 .VPHome,
