@@ -196,6 +196,17 @@ body {
     border-radius: 0;
 }
 
+.vp-doc .custom-block.info {
+    border: 1px solid #ead3df;
+    background: #f8edf3;
+}
+
+.vp-doc .custom-block.info .custom-block-title {
+    color: #2a2b5f;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+}
+
 .ce-rise-band {
     margin: 1.2rem 0 0;
     padding: 1rem 1.1rem;

@@ -9,7 +9,7 @@ An open, interoperable, modular, and technology-agnostic solution for gradual an
 ## Why it matters
 Lower barriers, preserve flexibility, protect sensitive information, and create added value for circular economy.
 
-::: info
+::: info Take-home message
 Future-proof digital passport adoption without lock-in.
 :::
 
