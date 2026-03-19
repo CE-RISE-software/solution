@@ -278,6 +278,7 @@ body {
 
 .ce-rise-grid {
     margin-top: 1.2rem;
+    display: none;
 }
 
 .ce-card-grid {
