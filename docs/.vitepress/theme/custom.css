@@ -124,10 +124,13 @@ body {
 .ce-layout__content h1,
 .ce-layout__content h2,
 .ce-layout__content h3,
+.ce-layout__content h4,
 .vp-doc h1,
 .vp-doc h2,
-.vp-doc h3 {
+.vp-doc h3,
+.vp-doc h4 {
     letter-spacing: -0.03em;
+    font-weight: 700;
 }
 
 .ce-layout__content h1,
@@ -159,7 +162,6 @@ body {
 .ce-layout__content h4,
 .vp-doc h4 {
     font-size: 28px;
-    font-weight: 300;
     line-height: 1.3;
     color: #222222;
 }
@@ -212,6 +214,7 @@ body {
 }
 
 .VPFeature .title,
+.ce-rise-card h3,
 .ce-card-grid__item h3 {
     margin-top: 0;
     margin-bottom: 0.55rem;
@@ -226,6 +229,18 @@ body {
     margin: 0;
     font-size: 20px;
     line-height: 1.7;
+    overflow-wrap: anywhere;
+}
+
+.ce-rise-card h3 {
+    font-size: 22px;
+    line-height: 1.25;
+}
+
+.ce-rise-card p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.5;
     overflow-wrap: anywhere;
 }
 
