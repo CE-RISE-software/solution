@@ -46,7 +46,7 @@ The software architecture is based on modular service types that can be combined
     <p>Specialized application services for particular models, record sections, or business workflows. They collect information, enrich existing records, or compute derived data, and can link the system to live data and siloed data storage, including ERP systems, data spaces, and digital twin representations. They then rely on Hex Core Service to validate and integrate those results into the overall system.</p>
   </div>
 </div>
-The CE-RISE solution also includes documentation, APIs, repositories, demonstrators, and archived resources that help users understand, evaluate, and reuse the system in practice.
+The CE-RISE solution also includes documentation, APIs, web and command line clients, repositories, demonstrators, and archived resources that help users understand, evaluate, and reuse the system in practice.
 
 ![CE-RISE Solution Software Components](/images/solution-components.png)
 
