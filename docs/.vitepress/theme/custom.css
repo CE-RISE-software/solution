@@ -228,6 +228,13 @@ body {
 .ce-card-grid {
     display: grid;
     gap: 1rem;
+}
+
+.ce-rise-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.ce-card-grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 

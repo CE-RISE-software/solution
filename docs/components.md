@@ -6,9 +6,20 @@ The CE-RISE solution combines interoperable data models with modular software co
 
 The solution builds on a layered digital passport data model architecture, designed to support shared structures, specialization, and interoperability across use cases.
 
-- **Common layers** support reusable and cross-cutting information structures.
-- **Domain and use-case layers** support more specific requirements and extensions.
-- **Model architecture** helps align implementations while preserving flexibility.
+<div class="ce-rise-grid">
+  <div class="ce-rise-card">
+    <h3>Core Layer</h3>
+    <p>The foundation of every Digital Passport, providing essential identity and metadata management infrastructure.</p>
+  </div>
+  <div class="ce-rise-card">
+    <h3>Value-Added Information Layer</h3>
+    <p>The rich, domain-specific information that creates value for different stakeholders throughout the product or material lifecycle.</p>
+  </div>
+  <div class="ce-rise-card">
+    <h3>Cross-Cutting Utility Layer</h3>
+    <p>Reusable components that support data quality and reliability across all other layers.</p>
+  </div>
+</div>
 
 ![Layered data model architecture](https://ce-rise-models.codeberg.page/dp-architecture/dpp-architecture.png)
 
