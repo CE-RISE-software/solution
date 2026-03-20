@@ -239,7 +239,7 @@ body {
 .ce-layout__content li a,
 .vp-doc p a,
 .vp-doc li a {
-    color: inherit;
+    color: #2a2b5f;
     font-family: inherit;
     font-size: 1em;
     font-weight: 700;
