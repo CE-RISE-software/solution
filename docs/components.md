@@ -51,8 +51,8 @@ The CE-RISE solution also includes documentation, APIs, repositories, demonstrat
       link: '/'
     },
     {
-      title: 'Reference',
-      link: '/reference'
+      title: 'References',
+      link: '/references'
     }
   ]"
 />

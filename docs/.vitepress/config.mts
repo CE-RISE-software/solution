@@ -44,7 +44,7 @@ export default defineConfig({
             { text: "How It Works", link: "/how-it-works" },
             { text: "Capabilities", link: "/capabilities" },
             { text: "Components", link: "/components" },
-            { text: "Reference", link: "/reference" },
+            { text: "References", link: "/references" },
         ],
     },
 });

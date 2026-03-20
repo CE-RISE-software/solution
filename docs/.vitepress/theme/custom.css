@@ -224,6 +224,13 @@ body {
     background: #fff4ec;
 }
 
+.ce-two-col {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+    margin-top: 1.4rem;
+}
+
 .ce-rise-grid,
 .ce-card-grid {
     display: grid;
@@ -471,6 +478,10 @@ body {
     .ce-rise-grid,
     .ce-card-grid,
     .ce-jump-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .ce-two-col {
         grid-template-columns: 1fr;
     }
 
