@@ -21,17 +21,19 @@
   - [FORTHCOMING]
 
 ## Software
-- **Core Service and Supporting Software**
-  - Hex Core Service: **[Docker Image]** *rg.fr-par.scw.cloud/ce-rise-software/hex-core-service:latest* - [CLI for Linux, MacOS and Windows](https://codeberg.org/CE-RISE-software/hex-core-service/releases) - [Documentation](https://ce-rise-software.codeberg.page/hex-core-service/) - [Source](https://codeberg.org/CE-RISE-software/hex-core-service)
-  - Go Software Development Kit for Hexagonal Core Service: [Go Reference](https://pkg.go.dev/github.com/CE-RISE-software/hex-core-sdk-go) - [Documentation](https://ce-rise-software.codeberg.page/hex-core-sdk-go/) - [Source](https://codeberg.org/CE-RISE-software/hex-core-sdk-go)
-  - Python Software Development Kit for Hexagonal Core Service: [PYPI Package](https://pypi.org/project/ce-rise-hex-core-sdk/) - [Documentation](https://ce-rise-software.codeberg.page/hex-core-sdk-python/) -  [Source](https://codeberg.org/CE-RISE-software/hex-core-sdk-python)
-  - TypeScript Software Development Kit for Hexagonal Core Service: [NPM Package](https://www.npmjs.com/package/@ce-rise/hex-core-sdk-typescript) - [Documentation](https://ce-rise-software.codeberg.page/hex-core-sdk-typescript/) - [Source](https://codeberg.org/CE-RISE-software/hex-core-sdk-typescript)
-- **Data Backend Services and Supporting Software**
-  - DP Storage JSONDB Service: [Source](https://codeberg.org/CE-RISE-software/dp-storage-jsondb-service)
-
-  - RE-Indicators Calculation Service: [Source](https://codeberg.org/CE-RISE-software/re-indicators-calculation-service)
+- **Core Service**
+  - Hexagonal Core: **[Docker Image]** *rg.fr-par.scw.cloud/ce-rise-software/hex-core-service:latest* - [CLI for Linux, MacOS and Windows](https://codeberg.org/CE-RISE-software/hex-core-service/releases) - [Documentation](https://ce-rise-software.codeberg.page/hex-core-service/) - [Source](https://codeberg.org/CE-RISE-software/hex-core-service)
+  - Go Software Development Kit for Hexagonal Core: [Go Reference](https://pkg.go.dev/github.com/CE-RISE-software/hex-core-sdk-go) - [Documentation](https://ce-rise-software.codeberg.page/hex-core-sdk-go/) - [Source](https://codeberg.org/CE-RISE-software/hex-core-sdk-go)
+  - Python Software Development Kit for Hexagonal Core: [PYPI Package](https://pypi.org/project/ce-rise-hex-core-sdk/) - [Documentation](https://ce-rise-software.codeberg.page/hex-core-sdk-python/) -  [Source](https://codeberg.org/CE-RISE-software/hex-core-sdk-python)
+  - TypeScript Software Development Kit for Hexagonal Core: [NPM Package](https://www.npmjs.com/package/@ce-rise/hex-core-sdk-typescript) - [Documentation](https://ce-rise-software.codeberg.page/hex-core-sdk-typescript/) - [Source](https://codeberg.org/CE-RISE-software/hex-core-sdk-typescript)
+- **Data Backend Services**
+  - DP Storage JSONDB: **[Docker Image]** *rg.fr-par.scw.cloud/ce-rise-software/dp-storage-jsondb:latest* - [Documentation](https://ce-rise-software.codeberg.page/dp-storage-jsondb-service/) - [Source](https://codeberg.org/CE-RISE-software/dp-storage-jsondb-service)
+- **Application Services**
+  - RE-Indicators Calculation: **[Docker Image]** *[FORTHCOMING]* - [Documentation]([FORTHCOMING]) - [Source](https://codeberg.org/CE-RISE-software/re-indicators-calculation-service)
+- **Web Dynamic Frontend**
+  - [FORTHCOMING]
 - **Testing, Demonstration, and Deployment**
-  - DP System GitOps Template: [Source](https://codeberg.org/CE-RISE-software/dp-system-gitops-template)
+  - DP System GitOps Template: [Documentation](https://ce-rise-software.codeberg.page/dp-system-gitops-template/) - [Source](https://codeberg.org/CE-RISE-software/dp-system-gitops-template)
   - Digital Passport System: Local Demonstrator: [Source](https://codeberg.org/CE-RISE-software/dp-system-local-demonstrator)
 
 ## Project
