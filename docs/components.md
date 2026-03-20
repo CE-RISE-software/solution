@@ -48,6 +48,8 @@ The software architecture is based on modular service types that can be combined
 </div>
 The CE-RISE solution also includes documentation, APIs, repositories, demonstrators, and archived resources that help users understand, evaluate, and reuse the system in practice.
 
+![CE-RISE Solution Software Components](/images/solution-components.png)
+
 ::: info Take-home message
 The CE-RISE software components are modular by design, so core services and specialized services can be combined, replaced, and extended as needed.
 :::
