@@ -5,16 +5,16 @@ The CE-RISE solution works by connecting interoperable information, modular serv
 <div class="ce-two-col">
   <div>
 
-## Information layer
+## Information structure
 Digital passport information is structured in a shared and interoperable way, supporting semantic consistency, reuse of standards and ontologies, and alignment across different systems and providers.
 
-## Service layer
+## Core services
 Core and supporting services operate on this information through open, documented APIs, validation functions, and modular software components that can be deployed and combined as needed.
 
   </div>
   <div>
 
-## Integration layer
+## External integration
 External systems, interfaces, and data spaces connect through interoperable service interfaces, semantic alignment mechanisms, and flexible integration patterns that support existing enterprise environments and digital infrastructures.
 
 ## Deployment flexibility
