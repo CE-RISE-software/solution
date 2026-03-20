@@ -238,7 +238,9 @@ body {
 .ce-layout__content a,
 .vp-doc a {
     color: inherit;
-    font-family: var(--vp-font-family-mono);
+    font-family: inherit;
+    font-size: 0.96em;
+    font-weight: 600;
     text-decoration: none;
 }
 
