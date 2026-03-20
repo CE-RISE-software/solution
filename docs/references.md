@@ -18,7 +18,7 @@
   - RE-Indicators Specification Data Model: [Schema Files](https://ce-rise-models.codeberg.page/re-indicators-specification/) - [Source](https://codeberg.org/CE-RISE-models/re-indicators-specification)
   - Compliance and Standards: [Schema Files](https://ce-rise-models.codeberg.page/compliance-and-standards/) - [Source](https://codeberg.org/CE-RISE-models/compliance-and-standards)
 - **Cross-Cutting Utility Layers**
-  - [FORTHCOMING]
+  - \[FORTHCOMING\]
 
 ## Software
 - **Core Service**
@@ -29,9 +29,9 @@
 - **Data Backend Services**
   - DP Storage JSONDB: **[Docker Image]** *rg.fr-par.scw.cloud/ce-rise-software/dp-storage-jsondb:latest* - [Documentation](https://ce-rise-software.codeberg.page/dp-storage-jsondb-service/) - [Source](https://codeberg.org/CE-RISE-software/dp-storage-jsondb-service)
 - **Application Services**
-  - RE-Indicators Calculation: **[Docker Image]** *[FORTHCOMING]* - [Documentation]([FORTHCOMING]) - [Source](https://codeberg.org/CE-RISE-software/re-indicators-calculation-service)
+  - RE-Indicators Calculation: **[Docker Image]** *\[FORTHCOMING\]* - Documentation: \[FORTHCOMING\] - [Source](https://codeberg.org/CE-RISE-software/re-indicators-calculation-service)
 - **Web Dynamic Frontend**
-  - [FORTHCOMING]
+  - \[FORTHCOMING\]
 - **Testing, Demonstration, and Deployment**
   - DP System GitOps Template: [Documentation](https://ce-rise-software.codeberg.page/dp-system-gitops-template/) - [Source](https://codeberg.org/CE-RISE-software/dp-system-gitops-template)
   - Digital Passport System: Local Demonstrator: [Source](https://codeberg.org/CE-RISE-software/dp-system-local-demonstrator)

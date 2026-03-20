@@ -33,22 +33,22 @@ The CE-RISE data models provide a layered and interoperable structure that suppo
 
 The software architecture is based on modular service types that can be combined and extended according to need.
 
-### hex-core-service
+### Hexagonal Core Service
 The generic model-aware core service of the solution. It resolves model artifacts, validates payloads against the relevant models, and provides the common API used to create, query, and validate digital passport records across different use cases.
 
-### data-backend service
+### Data-backend
 The persistence service of the solution. It stores and retrieves digital passport records without taking on model-specific validation, enrichment, or workflow logic.
 
-### Model-focused services
+### Application services
 Specialized application services for particular models, record sections, or business workflows. They collect information, enrich existing records, or compute derived data, and then rely on `hex-core-service` to validate and integrate those results into the overall system.
+
+### Supporting resources
+
+The CE-RISE solution also includes documentation, APIs, repositories, demonstrators, and archived resources that help users understand, evaluate, and reuse the system in practice.
 
 ::: info Take-home message
 The CE-RISE software components are modular by design, so core services and specialized services can be combined, replaced, and extended as needed.
 :::
-
-## Supporting resources
-
-The CE-RISE solution also includes documentation, APIs, repositories, demonstrators, and archived resources that help users understand, evaluate, and reuse the system in practice.
 
 ---
 
