@@ -267,6 +267,11 @@ body {
     color: #ff8e00;
 }
 
+.ce-link-label {
+    color: #2a2b5f;
+    font-weight: 700;
+}
+
 .ce-layout__content p + p,
 .ce-layout__content p + ul,
 .ce-layout__content p + ol,
