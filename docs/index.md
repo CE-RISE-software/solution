@@ -1,6 +1,6 @@
 # The CE-RISE Solution for Digital Passports
 
-CE-RISE is a EU-funded project advancing circular economy in electronics through shared data, secure systems, and open sustainability tools. CE-RISE stands for Circular Economy Resource Information System.
+CE-RISE is a EU-funded project advancing circular economy in electronics through shared data, secure systems, and open sustainability tools. *CE-RISE stands for Circular Economy Resource Information System.*
 
 Within the project, CE-RISE partners have developed, piloted, and assessed digital passport approaches, applications, and system components to demonstrate practical implementation and value creation.
 

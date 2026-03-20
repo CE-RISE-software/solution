@@ -179,6 +179,76 @@ body {
     line-height: 1.7;
 }
 
+.ce-layout__content ul,
+.ce-layout__content ol,
+.vp-doc ul,
+.vp-doc ol {
+    margin: 0 0 0 1.4rem;
+    padding-left: 1.2rem;
+}
+
+.ce-layout__content ul,
+.vp-doc ul {
+    list-style: none;
+}
+
+.ce-layout__content ul ul,
+.ce-layout__content ul ol,
+.ce-layout__content ol ul,
+.ce-layout__content ol ol,
+.vp-doc ul ul,
+.vp-doc ul ol,
+.vp-doc ol ul,
+.vp-doc ol ol {
+    margin-top: 0.5rem;
+    margin-left: 1.2rem;
+    padding-left: 1rem;
+}
+
+.ce-layout__content li,
+.vp-doc li {
+    position: relative;
+    padding-left: 0.2rem;
+}
+
+.ce-layout__content ul > li::marker,
+.vp-doc ul > li::marker {
+    content: "";
+}
+
+.ce-layout__content ul > li::before,
+.vp-doc ul > li::before {
+    position: absolute;
+    left: -1.1rem;
+    color: #2a2b5f;
+    content: "›";
+    font-size: 0.95em;
+    font-weight: 700;
+}
+
+.ce-layout__content ul ul > li::before,
+.vp-doc ul ul > li::before {
+    left: -1rem;
+    color: #3f4d52;
+    content: "–";
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+.ce-layout__content a,
+.vp-doc a {
+    color: #2a2b5f;
+    font-style: italic;
+    text-decoration: underline;
+    text-underline-offset: 0.14em;
+    text-decoration-thickness: 0.06em;
+}
+
+.ce-layout__content a:hover,
+.vp-doc a:hover {
+    color: #ff8e00;
+}
+
 .ce-layout__content p + p,
 .ce-layout__content p + ul,
 .ce-layout__content p + ol,
