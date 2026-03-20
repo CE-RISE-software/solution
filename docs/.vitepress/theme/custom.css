@@ -237,11 +237,9 @@ body {
 
 .ce-layout__content a,
 .vp-doc a {
-    color: #2a2b5f;
-    font-style: italic;
-    text-decoration: underline;
-    text-underline-offset: 0.14em;
-    text-decoration-thickness: 0.06em;
+    color: inherit;
+    font-family: var(--vp-font-family-mono);
+    text-decoration: none;
 }
 
 .ce-layout__content a:hover,

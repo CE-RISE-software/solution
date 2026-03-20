@@ -22,6 +22,14 @@
 
 ## Software
 
+- Hex Core Service: [Source](https://codeberg.org/CE-RISE-software/hex-core-service)
+- DP Storage JSONDB Service: [Source](https://codeberg.org/CE-RISE-software/dp-storage-jsondb-service)
+- DP System GitOps Template: [Source](https://codeberg.org/CE-RISE-software/dp-system-gitops-template)
+- Digital Passport System: Local Demonstrator: [Source](https://codeberg.org/CE-RISE-software/dp-system-local-demonstrator)
+- Go Software Development Kit for Hexagonal Core Service: [Source](https://codeberg.org/CE-RISE-software/hex-core-sdk-go)
+- Python Software Development Kit for Hexagonal Core Service: [Source](https://codeberg.org/CE-RISE-software/hex-core-sdk-python)
+- TypeScript Software Development Kit for Hexagonal Core Service: [Source](https://codeberg.org/CE-RISE-software/hex-core-sdk-typescript)
+- RE-Indicators Calculation Service: [Source](https://codeberg.org/CE-RISE-software/re-indicators-calculation-service)
 
 
 <PageCards
