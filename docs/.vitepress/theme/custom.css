@@ -239,9 +239,19 @@ body {
 .vp-doc a {
     color: inherit;
     font-family: inherit;
-    font-size: 0.96em;
-    font-weight: 600;
+    font-size: 1em;
+    font-weight: 700;
     text-decoration: none;
+}
+
+.ce-layout__content a::before,
+.vp-doc a::before {
+    content: "[";
+}
+
+.ce-layout__content a::after,
+.vp-doc a::after {
+    content: "]";
 }
 
 .ce-layout__content a:hover,
