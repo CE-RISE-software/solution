@@ -8,20 +8,24 @@ The solution builds on a layered digital passport data model architecture, desig
 
 <div class="ce-rise-grid">
   <div class="ce-rise-card">
-    <h3>Core Layer</h3>
+    <h3>Core Layers</h3>
     <p>The foundation of every Digital Passport, providing essential identity and metadata management infrastructure.</p>
   </div>
   <div class="ce-rise-card">
-    <h3>Value-Added Information Layer</h3>
+    <h3>Value-Added Information Layers</h3>
     <p>The rich, domain-specific information that creates value for different stakeholders throughout the product or material lifecycle.</p>
   </div>
   <div class="ce-rise-card">
-    <h3>Cross-Cutting Utility Layer</h3>
+    <h3>Cross-Cutting Utility Layers</h3>
     <p>Reusable components that support data quality and reliability across all other layers.</p>
   </div>
 </div>
 
 ![Layered data model architecture](https://ce-rise-models.codeberg.page/dp-architecture/dpp-architecture.png)
+
+::: info Take-home message
+The CE-RISE data models provide a layered and interoperable structure that supports reuse, specialization, and consistent digital passport information across use cases.
+:::
 
 ---
 
@@ -37,6 +41,10 @@ The persistence service of the solution. It stores and retrieves digital passpor
 
 ### Model-focused services
 Specialized application services for particular models, record sections, or business workflows. They collect information, enrich existing records, or compute derived data, and then rely on `hex-core-service` to validate and integrate those results into the overall system.
+
+::: info Take-home message
+The CE-RISE software components are modular by design, so core services and specialized services can be combined, replaced, and extended as needed.
+:::
 
 ## Supporting resources
 

@@ -27,6 +27,10 @@
   </div>
 </div>
 
+::: info Take-home message
+The CE-RISE solution enables practical digital passport adoption through open, interoperable, modular, and extensible capabilities.
+:::
+
 ---
 
 <PageCards

@@ -25,6 +25,10 @@ Components can be deployed locally or across distributed environments, and can b
 
 <!-- Architecture diagram can be added here -->
 
+::: info Take-home message
+The CE-RISE solution works by combining interoperable information, modular services, and flexible integration into one open system.
+:::
+
 --- 
 
 <PageCards
