@@ -235,8 +235,10 @@ body {
     font-weight: 400;
 }
 
-.ce-layout__content a,
-.vp-doc a {
+.ce-layout__content p a,
+.ce-layout__content li a,
+.vp-doc p a,
+.vp-doc li a {
     color: inherit;
     font-family: inherit;
     font-size: 1em;
@@ -244,18 +246,24 @@ body {
     text-decoration: none;
 }
 
-.ce-layout__content a::before,
-.vp-doc a::before {
+.ce-layout__content p a::before,
+.ce-layout__content li a::before,
+.vp-doc p a::before,
+.vp-doc li a::before {
     content: "[";
 }
 
-.ce-layout__content a::after,
-.vp-doc a::after {
+.ce-layout__content p a::after,
+.ce-layout__content li a::after,
+.vp-doc p a::after,
+.vp-doc li a::after {
     content: "]";
 }
 
-.ce-layout__content a:hover,
-.vp-doc a:hover {
+.ce-layout__content p a:hover,
+.ce-layout__content li a:hover,
+.vp-doc p a:hover,
+.vp-doc li a:hover {
     color: #ff8e00;
 }
 
