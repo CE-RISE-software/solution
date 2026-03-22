@@ -4,14 +4,6 @@ Static documentation website for the CE-RISE solution for digital passports.
 
 ---
 
-## What this repository contains
-
-- a VitePress-based static documentation site in `docs`
-- a branded theme layer aligned to the current CE-RISE visual language
-- placeholder documentation sections for future editorial and technical content
-- a GitHub Actions workflow for automatic deployment to GitHub Pages from the mirrored repository
-- a `CNAME` file prepared for `solution.ce-rise.eu`
-
 ## Deployment model
 
 The canonical repository remains on Codeberg. The GitHub repository is the mirror used to build and publish the static site through GitHub Pages.
