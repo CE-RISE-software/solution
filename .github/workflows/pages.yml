@@ -17,7 +17,7 @@ jobs:
     deploy:
         runs-on: ubuntu-latest
         env:
-            VITEPRESS_BASE: /solution/
+            VITEPRESS_BASE: /
         steps:
             - name: Checkout
               uses: actions/checkout@v5

@@ -1,6 +1,6 @@
 import { defineConfig } from "vitepress";
 
-const base = "/solution/";
+const base = "/";
 
 export default defineConfig({
     base,
