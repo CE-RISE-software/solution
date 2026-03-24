@@ -6,7 +6,22 @@ import { withBase } from "vitepress";
   <footer class="ce-site-footer">
     <div class="ce-site-footer__inner">
       <div class="ce-site-footer__brand">
-        <img class="ce-site-footer__logo" :src="withBase('/images/CE-RISE_logo.png')" alt="CE-RISE logo" />
+        <a href="https://europa.eu" target="_blank" rel="noreferrer">
+          <img
+            class="ce-site-footer__logo"
+            src="https://ce-rise.eu/wp-content/uploads/2023/01/EN-Funded-by-the-EU-PANTONE-e1663585234561-1-1.png"
+            alt="Funded by the European Union"
+          />
+        </a>
+        <p class="ce-site-footer__funding">
+          This project is funded by the European Union under the Horizon Europe Research and Innovation Programme.
+          The contents of this website only reflect the views of the project.
+          <a
+            href="https://cordis.europa.eu/project/id/101092281/results"
+            target="_blank"
+            rel="noreferrer"
+          >More information on CORDIS.</a>
+        </p>
       </div>
 
       <div class="ce-site-footer__columns">

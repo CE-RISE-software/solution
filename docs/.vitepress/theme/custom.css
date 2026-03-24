@@ -504,14 +504,38 @@ body {
 .ce-site-footer__brand {
     flex: 0 0 auto;
     width: 100%;
-    max-width: 220px;
+    max-width: 360px;
 }
 
 .ce-site-footer__logo {
     display: block;
-    width: 180px;
+    width: 240px;
     max-width: 100%;
     height: auto;
+}
+
+.ce-site-footer__funding {
+    margin: 1rem 0 0;
+    color: rgba(255, 255, 255, 0.82);
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.ce-site-footer__funding a {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: inherit;
+    font-size: 1em;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.ce-site-footer__funding a::before,
+.ce-site-footer__funding a::after {
+    content: none;
+}
+
+.ce-site-footer__funding a:hover {
+    color: #ff8e00;
 }
 
 .ce-site-footer__columns {
