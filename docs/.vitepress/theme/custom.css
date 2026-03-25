@@ -481,7 +481,7 @@ body {
 
 .ce-site-footer {
     margin-top: 3rem;
-    background: linear-gradient(180deg, #082e37 0%, #0a3a43 100%);
+    background: #082e37;
     color: rgba(255, 255, 255, 0.86);
 }
 
