@@ -71,13 +71,7 @@ body {
     padding: 40px;
     box-sizing: border-box;
     overflow: hidden;
-    background-image: linear-gradient(
-        45deg,
-        #ff8e00 0%,
-        #b34a79 36%,
-        #b34a79 49%,
-        #0000ff 100%
-    );
+    background: #0a3a43;
 }
 
 .ce-site-rail__brand {
