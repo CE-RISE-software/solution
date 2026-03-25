@@ -8,6 +8,7 @@ const { theme } = useData();
   <aside class="ce-site-rail" aria-label="Primary">
     <a class="ce-site-rail__brand" :href="withBase('/')">
       <img class="ce-site-rail__logo" :src="withBase('/images/logo-mono.png')" alt="CE-RISE logo" />
+      <span class="ce-site-rail__brand-text">SOLUTION</span>
     </a>
 
     <nav class="ce-site-rail__nav">

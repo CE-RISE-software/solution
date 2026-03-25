@@ -88,6 +88,17 @@ body {
     height: auto;
 }
 
+.ce-site-rail__brand-text {
+    display: block;
+    margin-top: 0.35rem;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 1.2;
+    text-align: center;
+}
+
 .ce-site-rail__nav {
     display: flex;
     flex: 1;
