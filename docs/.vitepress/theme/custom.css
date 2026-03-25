@@ -407,6 +407,14 @@ body {
     overflow-wrap: anywhere;
 }
 
+.ce-index-intro-image {
+    display: block;
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+    margin: 1.5rem auto 0;
+}
+
 .VPFeature p + p,
 .ce-rise-card p + p,
 .ce-card-grid__item p + p {
