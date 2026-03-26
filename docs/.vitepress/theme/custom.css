@@ -338,6 +338,7 @@ body {
 
 .ce-rise-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-bottom: 1.5rem;
 }
 
 .ce-card-grid {
