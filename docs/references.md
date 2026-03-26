@@ -41,6 +41,8 @@
 - CE-RISE Software: [Source Repositories](https://codeberg.org/CE-RISE-software)
 - CE-RISE Output (Deliverables, Software, Data Models, etc.): [Permanent Archive](https://zenodo.org/communities/ce-rise/)
 
+---
+
 <PageCards
   :items="[
     {
