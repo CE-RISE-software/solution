@@ -26,16 +26,6 @@ import { withBase } from "vitepress";
 
       <div class="ce-site-footer__columns">
         <section>
-          <h2>Sections</h2>
-          <ul>
-            <li><a :href="withBase('/overview')">Overview</a></li>
-            <li><a :href="withBase('/how-it-works')">How it works</a></li>
-            <li><a :href="withBase('/capabilities')">Capabilities</a></li>
-            <li><a :href="withBase('/components')">Components</a></li>
-          </ul>
-        </section>
-
-        <section>
           <h2>Project</h2>
           <ul>
             <li><a href="https://ce-rise.eu/" target="_blank" rel="noreferrer">CE-RISE Website</a></li>
