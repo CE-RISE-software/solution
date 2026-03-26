@@ -41,6 +41,8 @@ body {
 }
 
 .ce-layout__main {
+    display: flex;
+    flex-direction: column;
     margin-left: var(--ce-rail-width);
     min-height: 100vh;
     background: #ffffff;
@@ -56,6 +58,7 @@ body {
 }
 
 .ce-layout__content {
+    flex: 1 0 auto;
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -304,13 +307,13 @@ body {
 .vp-doc .custom-block.info,
 .ce-layout__content .custom-block.info {
     margin-top: 2rem;
-    border: 1px solid #ead3df;
-    background-color: #f8edf3;
+    border: 1px solid #f0c8a5;
+    background-color: #ffe2c7;
 }
 
 .vp-doc .custom-block.info .custom-block-title,
 .ce-layout__content .custom-block.info .custom-block-title {
-    color: #2a2b5f;
+    color: #222222;
     font-weight: 700;
     letter-spacing: 0.04em;
 }
@@ -501,7 +504,7 @@ body {
 }
 
 .ce-site-footer {
-    margin-top: 3rem;
+    margin-top: auto;
     background: #082e37;
     color: rgba(255, 255, 255, 0.86);
 }
