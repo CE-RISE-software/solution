@@ -29,7 +29,7 @@
 - **Data Backend Services**
   - DP Storage JSONDB: **<span class="ce-link-label">[Docker Image]</span>** *rg.fr-par.scw.cloud/ce-rise-software/dp-storage-jsondb:latest* - [Documentation](https://ce-rise-software.codeberg.page/dp-storage-jsondb-service/) - [Source](https://codeberg.org/CE-RISE-software/dp-storage-jsondb-service)
 - **Application Services**
-  - RE-Indicators Calculation: **<span class="ce-link-label">[Docker Image]</span>** *\[FORTHCOMING\]* - <span class="ce-link-label">Documentation:</span> \[FORTHCOMING\] - [Source](https://codeberg.org/CE-RISE-software/re-indicators-calculation-service)
+  - RE-Indicators Calculation: **<span class="ce-link-label">[Docker Image]</span>** *rg.fr-par.scw.cloud/ce-rise-software/re-indicators-calculation:latest* - [Documentation](https://ce-rise-software.codeberg.page/re-indicators-calculation-service/) - [Source](https://codeberg.org/CE-RISE-software/re-indicators-calculation-service)
 - **Web Dynamic Frontend**
   - \[FORTHCOMING\]
 - **Testing, Demonstration, and Deployment**
