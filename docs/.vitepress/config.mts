@@ -35,6 +35,15 @@ export default defineConfig({
                 href: `${base}images/favicon.png`,
             },
         ],
+        [
+          "script",
+          {
+            defer: "",
+            src: "https://stats.bojafa.us/script.js",
+            "data-website-id": "ae964c9f-dfb6-4257-9100-75c2f0ebaffb",
+            "data-domains": "solution.ce-rise.eu",
+          },
+        ],
     ],
     themeConfig: {
         logo: `${base}images/CE-RISE_logo.png`,
