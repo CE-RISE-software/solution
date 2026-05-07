@@ -33,8 +33,10 @@
 - **Web Dynamic Frontend**
   - \[FORTHCOMING\]
 - **Testing, Demonstration, and Deployment**
+  - Digital Passport Engineering Assistant: [Source](https://codeberg.org/CE-RISE-software/dp-engineering-assistant) - [MCP Server](https://github.com/CE-RISE-software/dp-engineering-assistant/pkgs/container/dp-engineering-assistant-mcp)
   - DP System GitOps Template: [Documentation](https://ce-rise-software.codeberg.page/dp-system-gitops-template/) - [Source](https://codeberg.org/CE-RISE-software/dp-system-gitops-template)
   - Digital Passport System: Local Demonstrator: [Source](https://codeberg.org/CE-RISE-software/dp-system-local-demonstrator)
+  - Digital Passport Model Assessment Workbench: [Source](https://codeberg.org/CE-RISE-software/dp-assessment-workbench) - [PYPI Package](https://pypi.org/project/dpawb/) - [MCP Server](https://github.com/CE-RISE-software/dp-assessment-workbench/pkgs/container/dpawb-mcp)
 
 ## Project
 - CE-RISE Data Models: [Source Repositories](https://codeberg.org/CE-RISE-models)
