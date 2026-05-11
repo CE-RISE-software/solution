@@ -18,7 +18,9 @@
   - RE-Indicators Specification Data Model: [Schema Files](https://ce-rise-models.codeberg.page/re-indicators-specification/) - [Source](https://codeberg.org/CE-RISE-models/re-indicators-specification)
   - Compliance and Standards: [Schema Files](https://ce-rise-models.codeberg.page/compliance-and-standards/) - [Source](https://codeberg.org/CE-RISE-models/compliance-and-standards)
 - **Cross-Cutting Utility Layers**
-  - \[FORTHCOMING\]
+  - Uncertainty Quantification: [Schema Files](https://ce-rise-models.codeberg.page/uncertainty-quantification/) - [Source](https://codeberg.org/CE-RISE-models/uncertainty-quantification)
+  - Metrological Traceability: [Schema Files](https://ce-rise-models.codeberg.page/metrological-traceability/) - [Source](https://codeberg.org/CE-RISE-models/metrological-traceability)
+  - Data Quality Framework: [Schema Files](https://ce-rise-models.codeberg.page/data-quality-framework/) - [Source](https://codeberg.org/CE-RISE-models/data-quality-framework)
 
 ## Software
 - **Core Service**
