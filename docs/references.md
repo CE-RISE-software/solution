@@ -14,6 +14,8 @@
   - Diagnostic Results: [Schema Files](https://ce-rise-models.codeberg.page/diagnostic-results/) - [Source](https://codeberg.org/CE-RISE-models/diagnostic-results)
   - Usage and Maintenance: [Schema Files](https://ce-rise-models.codeberg.page/usage-and-maintenance/) - [Source](https://codeberg.org/CE-RISE-models/usage-and-maintenance)
   - Integrated Life Cycle Analysis: [Schema Files](https://ce-rise-models.codeberg.page/integrated-lca/) - [Source](https://codeberg.org/CE-RISE-models/integrated-lca)
+  - Product System: [Schema Files](https://ce-rise-models.codeberg.page/product-system/) - [Source](https://codeberg.org/CE-RISE-models/product-system)
+  - LCI Dataset: [Schema Files](https://ce-rise-models.codeberg.page/lci-dataset/) - [Source](https://codeberg.org/CE-RISE-models/lci-dataset)
   - Circularity and End-of-Life: [Schema Files](https://ce-rise-models.codeberg.page/circularity-and-eol/) - [Source](https://codeberg.org/CE-RISE-models/circularity-and-eol)
   - RE-Indicators Specification Data Model: [Schema Files](https://ce-rise-models.codeberg.page/re-indicators-specification/) - [Source](https://codeberg.org/CE-RISE-models/re-indicators-specification)
   - Compliance and Standards: [Schema Files](https://ce-rise-models.codeberg.page/compliance-and-standards/) - [Source](https://codeberg.org/CE-RISE-models/compliance-and-standards)
