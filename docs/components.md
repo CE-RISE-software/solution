@@ -64,7 +64,7 @@ The CE-RISE software components are modular by design, so core services and spec
       link: '/'
     },
     {
-      title: 'References',
+      title: 'Toolbox',
       link: '/references'
     }
   ]"
