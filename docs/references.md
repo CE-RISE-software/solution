@@ -1,4 +1,4 @@
-# CE-RISE Toolbox
+# Tools
 
 The data models, software services, and implementation resources used to build CE-RISE digital
 passport systems.
