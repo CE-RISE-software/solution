@@ -37,12 +37,12 @@ passport systems.
   - DP Storage JSONDB: **<span class="ce-link-label">[Docker Image]</span>** *rg.fr-par.scw.cloud/ce-rise-software/dp-storage-jsondb:latest* - [Documentation](https://ce-rise-software.codeberg.page/dp-storage-jsondb-service/) - [Source](https://codeberg.org/CE-RISE-software/dp-storage-jsondb-service)
 - **Application Services**
   - RE-Indicators Calculation: **<span class="ce-link-label">[Docker Image]</span>** *rg.fr-par.scw.cloud/ce-rise-software/re-indicators-calculation:latest* - [Documentation](https://ce-rise-software.codeberg.page/re-indicators-calculation-service/) - [Source](https://codeberg.org/CE-RISE-software/re-indicators-calculation-service)
-  - SEE Impacts Calculation Service: **Forthcoming** - [Source](https://codeberg.org/CE-RISE-software/see-impacts-calculation-service)
+  - SEE Impacts Calculation Service: **\[FORTHCOMING\]** - [Source](https://codeberg.org/CE-RISE-software/see-impacts-calculation-service)
 - **Web Dynamic Frontend**
-  - \[FORTHCOMING\]
+  - **\[FORTHCOMING\]**
 - **Digital Passport Assessment and Insights**
   - Digital Passport Model Assessment Workbench: [Source](https://codeberg.org/CE-RISE-software/dp-assessment-workbench) - [PYPI Package](https://pypi.org/project/dpawb/) - [MCP Server](https://github.com/CE-RISE-software/dp-assessment-workbench/pkgs/container/dpawb-mcp)
-  - Intelligent Circular Insights Workbench: **Forthcoming** - [Source](https://codeberg.org/CE-RISE-software/intelligent-circular-insights)
+  - Intelligent Circular Insights Workbench: **\[FORTHCOMING\]** - [Source](https://codeberg.org/CE-RISE-software/intelligent-circular-insights)
 - **Testing, Demonstration, and Deployment**
   - Digital Passport Engineering Assistant: [Source](https://codeberg.org/CE-RISE-software/dp-engineering-assistant) - [MCP Server](https://github.com/CE-RISE-software/dp-engineering-assistant/pkgs/container/dp-engineering-assistant-mcp)
   - DP System GitOps Template: [Documentation](https://ce-rise-software.codeberg.page/dp-system-gitops-template/) - [Source](https://codeberg.org/CE-RISE-software/dp-system-gitops-template)
