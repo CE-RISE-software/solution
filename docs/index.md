@@ -23,7 +23,7 @@ The CE-RISE solution is **OPEN**: fully interoperable, open source, free to use,
   </div>
 </div>
 
-<img class="ce-index-intro-image" src="/images/solution_intro.png" alt="CE-RISE Solution Introduction" />
+<img class="ce-index-intro-image" src="./images/solution_intro.png" alt="CE-RISE Solution Introduction" />
 
 ---
 

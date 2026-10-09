@@ -42,7 +42,7 @@ passport systems.
   - **\[FORTHCOMING\]**
 - **Digital Passport Assessment and Insights**
   - Digital Passport Model Assessment Workbench: [Source](https://codeberg.org/CE-RISE-software/dp-assessment-workbench) - [PYPI Package](https://pypi.org/project/dpawb/) - [MCP Server](https://github.com/CE-RISE-software/dp-assessment-workbench/pkgs/container/dpawb-mcp)
-  - Intelligent Circular Insights Workbench: **\[FORTHCOMING\]** - [Source](https://codeberg.org/CE-RISE-software/intelligent-circular-insights)
+  - Intelligent Circular Insights Workbench: [Documentation](https://ce-rise-software.codeberg.page/intelligent-circular-insights/) - [Source](https://codeberg.org/CE-RISE-software/intelligent-circular-insights)
 - **Testing, Demonstration, and Deployment**
   - Digital Passport Engineering Assistant: [Source](https://codeberg.org/CE-RISE-software/dp-engineering-assistant) - [MCP Server](https://github.com/CE-RISE-software/dp-engineering-assistant/pkgs/container/dp-engineering-assistant-mcp)
   - DP System GitOps Template: [Documentation](https://ce-rise-software.codeberg.page/dp-system-gitops-template/) - [Source](https://codeberg.org/CE-RISE-software/dp-system-gitops-template)
